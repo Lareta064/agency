@@ -31,5 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
 			body.classList.remove('lock');
 		}
 		
-	})
+	});
+
+	$('#header-slider').slick({
+		
+	});
 });

@@ -5,22 +5,22 @@
 	.container{
 		display: flex;
 	}
-	&__content{
+	&-slider{
 		position: relative;
-		display: flex;
-		align-items: center;
-		width: 100%;
-		&>*{width: 100%;}
+		
+		
 		.h1{
 			position: absolute;
 			top: 0;
 			left: 0;
+			transform: translateY(200px);
 		}
 	}
 	&__item{
 		display: flex;
 		align-items: center;
 		column-gap:30px;
+		width: 100%;
 	}
 	&__title{
 		flex-grow: 1;
