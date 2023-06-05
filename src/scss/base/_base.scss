@@ -151,3 +151,20 @@ input[type="submit"]{
     display: none !important;
   }
 }
+.h1{
+  font-family: 'WorkSans-SemiBold';
+  font-size: 55px;
+  line-height: 1.2;
+  position: relative;
+  z-index: 1;
+}
+.h3 {
+ 
+  font-size: 26px;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+.text-20{
+  font-size: 20px;
+  line-height: 1.3;
+}

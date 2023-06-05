@@ -2,7 +2,11 @@
 	height: 80px;
 	padding: 10px 0;
 	font-family: 'WorkSans-Light';
-	
+	position: fixed;
+	top: 0;
+	left: 0;right: 0;
+	z-index: 2;
+	background-color: $bodyBg;
 	&-content{
 		display: flex;
 		align-items: center;
