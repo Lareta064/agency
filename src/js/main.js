@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		} else {
 			headerMenu.classList.remove('open');
 			menuToggle.classList.remove('active');
-			body.classList.remove('lock');
+			bodyEl.classList.remove('lock');
 		}
 
 	});
@@ -21,19 +21,22 @@ document.addEventListener('DOMContentLoaded', function () {
 	headerMenu.addEventListener('click', ()=>{
 		headerMenu.classList.remove('open');
 		menuToggle.classList.remove('active');
-		body.classList.remove('lock');
+		bodyEl.classList.remove('lock');
 	});
 	/*=== закрыть моб меню при ресайзе экрана */
 	window.addEventListener('resize', ()=>{
 		if (window.innerWidth != window.innerHeight){
 			headerMenu.classList.remove('open');
 			menuToggle.classList.remove('active');
-			body.classList.remove('lock');
+			bodyEl.classList.remove('lock');
 		}
 		
 	});
 
 	$('#header-slider').slick({
+		infinite: true,
+		speed: 600,
+		fade: true,
 		
 	});
 });
