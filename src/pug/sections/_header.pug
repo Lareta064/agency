@@ -1,5 +1,5 @@
 header.header#top
-	.container
+	.container-xl
 		.header-content
 			//====logo ====
 			a(href="#top").logo
@@ -9,19 +9,34 @@ header.header#top
 					img(src="./img/logo.png", alt="logo")
 
 			//==== header nav =====
-			.header-nav
-				ul
-					li
-						a(href="#!") Home
-					li
-						a(href="#!") Agency
-					li
-						a(href="#!") Join our team
-					li
-						a(href="#!") Contact
+			.header-menu#header-menu
+				.header-menu__content
+					//==== выбор языка на моб версии ====
+					.header-lang.flex-mobile
+						//== single item ==
+						a(href="#!").header-lang__item.active
+							img(src="./img/flag-en.png", width="30" height="20" alt="flag")
+							span En
+						
+						//== single item ==
+						a(href="#!").header-lang__item
+							img(src="./img/flag-de.png", width="30" height="20" alt="flag")
+							span De
+					
+					//==== меню ====
+					ul
+						
+						li
+							a(href="#!") Home
+						li
+							a(href="#!") Agency
+						li
+							a(href="#!") Join our team
+						li
+							a(href="#!") Contact
 			
-			//==== select lang =====
-			.header-lang
+			//==== выбор языка от 768px  и выше  =====
+			.header-lang.flex-tablet
 				//== single item ==
 				a(href="#!").header-lang__item.active
 					img(src="./img/flag-en.png", width="30" height="20" alt="flag")
@@ -34,3 +49,6 @@ header.header#top
 
 			.header-btn
 				a(href="#!").btn Grow with us
+			
+			.toggle-menu#menu-toggle
+				span

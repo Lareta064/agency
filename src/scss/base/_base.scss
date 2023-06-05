@@ -5,6 +5,10 @@ $accent: #1c72fd;
 $btn-text: #fff;
 $btn-bg: #1c72fd;
 
+/* цвет иконки меню*/
+ $burger: #fff;
+ /* цвет фона при открытом меню*/
+$overlayBg: rgba(255,255,255, .5);
 
 
 * {
@@ -90,12 +94,25 @@ input[type="submit"]{
 //   -webkit-box-shadow: 0 0 0px 1000px #01203c inset;
 //   transition: background-color 5000s ease-in-out 0s;
 // }
-.container{
+.container,.container-xl{
   width: 1140px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  @media (max-width: 1199px) {
+    width: 970px;
+  }
+  @media (max-width: 991px) {
+   width: 760px;
+  }
+    @media (max-width: 767px) {
+      width: 330px;
+    }
+}
+.container-xl{
+  width: 100%!important;
+  max-width: 1140px;
 }
 .btn{
   display: block;
@@ -111,7 +128,26 @@ input[type="submit"]{
   border-radius: 46px;
   height: 46px;
   transition: .3s;
+  white-space: nowrap;
   &:hover{
     background-color: darken($btn-bg, 10%);
+  }
+
+    @media (max-width: 767px) {
+      height: 36px;
+      line-height: 36px;padding: 0 16px;
+    }
+}
+.flex-mobile{
+  display: none!important;
+  @media (max-width: 767px) {
+    display: flex !important;
+  }
+}
+.flex-tablet{
+  display: flex !important;
+  
+  @media (max-width: 767px) {
+    display: none !important;
   }
 }

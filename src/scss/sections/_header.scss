@@ -2,35 +2,83 @@
 	height: 80px;
 	padding: 10px 0;
 	font-family: 'WorkSans-Light';
+	
 	&-content{
 		display: flex;
 		align-items: center;
 		column-gap:36px;
+		@media (max-width: 991px) {
+			column-gap: 25px;
+		}
 	}
 	.logo {
+		margin-right: auto;
+		
 		&>*{
 			height: 60px;
 			width: auto;
 			object-fit: contain;
 			pointer-events: none;
+			@media (max-width: 767px) {
+				height: 40px;
+			}
 		}
 	
 	}
 
-	&-nav{
+	&-menu{
 		padding-left: 30px;
-		margin-left: auto;
 		
 		ul{
 			display: flex;
 			align-items: center;
 			column-gap: 36px;
 			transition: .3s;
+			a{white-space: nowrap;}
 			a:hover{
 				opacity: .8;
 			}
+			@media (max-width: 991px) {
+				column-gap: 20px;
+			}
+		}
+
+		@media (max-width: 991px) {
+			background-color: $overlayBg;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+			z-index: 5;
+			transform: translateX(100%);
+			transition: .3s;
+			padding-left: 0;
+			&__content{
+				background-color: $bodyBg;
+				width: 320px;
+				padding: 30px;
+				padding-top: 23px;
+				display: flex;
+				flex-direction: column;
+				row-gap: 40px;
+			}
+			&.open {
+				transform: translateX(0);
+			}
+
+			ul {
+				
+				flex-direction: column;
+				align-items: flex-start;
+				row-gap: 30px;
+			}
 		}
 	}
+
+
 
 	&-lang{
 		display: flex;
@@ -48,6 +96,63 @@
 		}
 		&__item:hover{
 			opacity: .8;
+		}
+		@media (max-width: 767px) {
+		column-gap: 40px;
+		}
+	}
+}
+.toggle-menu {
+	width: 35px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 7;
+	cursor: pointer;
+	flex-shrink:0;
+	span {
+		height: 2px;
+		background-color: $burger;
+		width: 100%;
+		display: block;
+		position: relative;
+
+		&:after,
+		&:before {
+			content: '';
+			height: 2px;
+			background-color: $burger;
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: -8px;
+			transition: .3s;
+		}
+
+		&:before {
+			top: auto;
+			bottom: -8px;
+		}
+	}
+
+}
+
+.toggle-menu.active {
+	span {
+		background-color: transparent;
+
+
+		&:after {
+			transform: translateY(-50%) rotate(-45deg);
+			top: 50%;
+
+		}
+
+		&:before {
+			transform: translateY(-50%) rotate(45deg);
+			top: 50%;
+			bottom: auto;
 		}
 	}
 }
