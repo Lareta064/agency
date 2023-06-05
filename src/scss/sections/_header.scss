@@ -1,0 +1,53 @@
+.header{
+	height: 80px;
+	padding: 10px 0;
+	font-family: 'WorkSans-Light';
+	&-content{
+		display: flex;
+		align-items: center;
+		column-gap:36px;
+	}
+	.logo {
+		&>*{
+			height: 60px;
+			width: auto;
+			object-fit: contain;
+			pointer-events: none;
+		}
+	
+	}
+
+	&-nav{
+		padding-left: 30px;
+		margin-left: auto;
+		
+		ul{
+			display: flex;
+			align-items: center;
+			column-gap: 36px;
+			transition: .3s;
+			a:hover{
+				opacity: .8;
+			}
+		}
+	}
+
+	&-lang{
+		display: flex;
+		align-items: center;
+		column-gap:10px;
+		text-transform: uppercase;
+		&>*{
+			display: flex;
+			align-items: center;
+			column-gap: 5px;
+			transition: .3s;
+		}
+		&__item.active{
+			color: $accent;
+		}
+		&__item:hover{
+			opacity: .8;
+		}
+	}
+}

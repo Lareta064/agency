@@ -1,0 +1,593 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="714" height="671" viewBox="0 0 714 671">
+    <style>
+        .animateOpacity {
+        animation: 5s ease-in-out 1s infinite animateOpacity;
+        }
+
+        .animateOpacity1 {
+        animation: 5s ease-in-out 1s infinite animateOpacity1;
+        }
+
+        .animatePosHorizontal {
+        animation: 3s ease-in-out 1s infinite animatePosHorizontal;
+        }
+
+        .animatePosVertical {
+        animation: 8s ease-in-out 1s infinite animatePosVertical;
+        }
+
+        .animatePosVertical1 {
+        animation: 5s ease-in-out 1s infinite animatePosVertical1;
+        }
+
+        .animateDelay1 {
+        animation-delay: 0.5s;
+        }
+
+        .animateDelay2 {
+        animation-delay: 0.25s;
+        }
+
+        .animateSpeed1 {
+        animation-duration: 8s;
+        }
+
+        .animateSpeed2 {
+        animation-duration: 4s;
+        }
+
+        @keyframes animateOpacity { 0% { opacity: 1 } 50% { opacity: 0.3 }  100% { opacity: 1 }}
+
+        @keyframes animateOpacity1 { 0% { opacity: 1 } 50% { opacity: 0.3 }  100% { opacity: 1 }}
+
+        @keyframes animatePosHorizontal { 0% { transform: translate(0px, 0px); } 50% { transform: translate(10px, 0px); }  100% { transform: translate(0px, 0px); }}
+
+        @keyframes animatePosVertical { 0% { transform: translate(0px, 0px); } 50% { transform: translate(0px, 20px); }  100% { transform: translate(0px, 0px); }}
+
+        @keyframes animatePosVertical1 { 0% { transform: translate(0px, 0px); } 50% { transform: translate(0px, -30px); }  100% { transform: translate(0px, 0px); }}
+    </style>
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#8b95f4"/>
+            <stop offset="0.276" stop-color="#6e76c2" stop-opacity="0.776"/>
+            <stop offset="1" stop-color="#080a14" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient" x1="-0.081" y1="-0.314" x2="0.848" y2="0.988" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#5940e7"/>
+            <stop offset="1" stop-color="#1baff8"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#5940e7"/>
+            <stop offset="0.502" stop-color="#15b3fb"/>
+            <stop offset="0.633" stop-color="#4ec5fb"/>
+            <stop offset="0.934" stop-color="#def4fe"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-3" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-4" x1="-1.78" y1="0.778" x2="0.961" y2="0.444" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path">
+            <path id="SVGID" d="M1487.14,6030.812l.262-92.458,9.109,5.259-.262,92.457Z" transform="translate(-1487.14 -5938.354)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-7" x1="-1.796" y1="0.796" x2="0.948" y2="0.442" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-2">
+            <path id="SVGID-2" data-name="SVGID" d="M1515.506,6052.622l.247-87.105,9.111,5.26-.247,87.1Z" transform="translate(-1515.506 -5965.516)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-10" x1="-1.831" y1="0.816" x2="0.917" y2="0.443" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-3">
+            <path id="SVGID-3" data-name="SVGID" d="M1543.876,6073.711l.234-82.466,9.109,5.259-.234,82.465Z" transform="translate(-1543.876 -5991.246)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-13" x1="-1.785" y1="0.839" x2="0.971" y2="0.43" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-4">
+            <path id="SVGID-4" data-name="SVGID" d="M1572.242,6098.056l.212-74.614,9.109,5.259-.212,74.615Z" transform="translate(-1572.242 -6023.441)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-16" x1="-1.462" y1="0.878" x2="1.309" y2="0.344" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-5">
+            <path id="SVGID-5" data-name="SVGID" d="M1600.608,6133.346l.159-55.982,9.109,5.258-.159,55.983Z" transform="translate(-1600.608 -6077.363)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-19" x1="-1.407" y1="0.922" x2="1.371" y2="0.307" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-6">
+            <path id="SVGID-6" data-name="SVGID" d="M1628.973,6157.971l.136-47.856,9.109,5.259-.135,47.855Z" transform="translate(-1628.973 -6110.114)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-22" x1="-1.519" y1="0.961" x2="1.26" y2="0.326" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-7">
+            <path id="SVGID-7" data-name="SVGID" d="M1657.339,6176l.131-46.227,9.109,5.259-.131,46.228Z" transform="translate(-1657.339 -6129.772)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-25" x1="-1.38" y1="1.05" x2="1.409" y2="0.234" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-8">
+            <path id="SVGID-8" data-name="SVGID" d="M1685.7,6203.938l.1-34.836,9.109,5.259-.1,34.835Z" transform="translate(-1685.704 -6169.103)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-28" x1="-1.357" y1="1.153" x2="1.437" y2="0.17" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-9">
+            <path id="SVGID-9" data-name="SVGID" d="M1714.07,6227.262l.079-27.991,9.111,5.261-.079,27.99Z" transform="translate(-1714.07 -6199.271)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-31" x1="-1.689" y1="1.14" x2="1.099" y2="0.325" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-10">
+            <path id="SVGID-10" data-name="SVGID" d="M1742.435,6236.692l.1-34.836,9.111,5.261-.1,34.835Z" transform="translate(-1742.435 -6201.856)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-34" x1="-1.729" y1="1.232" x2="1.064" y2="0.315" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-11">
+            <path id="SVGID-11" data-name="SVGID" d="M1770.806,6257.6l.086-30.37,9.109,5.259-.086,30.37Z" transform="translate(-1770.806 -6227.235)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-37" x1="-1.715" y1="1.39" x2="1.084" y2="0.265" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-12">
+            <path id="SVGID-12" data-name="SVGID" d="M1799.172,6280.657l.067-23.792,9.109,5.26-.068,23.792Z" transform="translate(-1799.172 -6256.865)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-39" x1="0.736" y1="1.336" x2="0.424" y2="0.23" xlink:href="#linear-gradient"/>
+        <clipPath id="clip-path-13">
+            <path id="SVGID-13" data-name="SVGID" d="M1827.537,6306.84l.04-14.131,9.109,5.259-.04,14.13Z" transform="translate(-1827.537 -6292.709)" fill="none"/>
+        </clipPath>
+        <linearGradient id="linear-gradient-40" x1="-1.62" y1="1.773" x2="1.187" y2="0.087" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-41" x1="7.824" y1="0.872" x2="8.819" y2="0.872" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-42" x1="7.659" y1="0.744" x2="8.654" y2="0.744" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-44" x1="1.261" y1="0.349" x2="-0.299" y2="0.634" xlink:href="#linear-gradient"/>
+        <linearGradient id="linear-gradient-45" x1="-1.798" y1="-0.346" x2="-0.264" y2="1.753" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#7d57c4"/>
+            <stop offset="0.054" stop-color="#8766ca" stop-opacity="0.894"/>
+            <stop offset="0.205" stop-color="#a18cd9" stop-opacity="0.624"/>
+            <stop offset="0.354" stop-color="#b6ace6" stop-opacity="0.4"/>
+            <stop offset="0.496" stop-color="#c7c5f0" stop-opacity="0.227"/>
+            <stop offset="0.63" stop-color="#d3d7f8" stop-opacity="0.102"/>
+            <stop offset="0.753" stop-color="#dae2fc" stop-opacity="0.027"/>
+            <stop offset="0.855" stop-color="#dde6fe" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-46" x1="-3.071" y1="-0.346" x2="-1.536" y2="1.753" xlink:href="#linear-gradient-45"/>
+        <linearGradient id="linear-gradient-47" x1="-4.197" y1="-0.346" x2="-2.662" y2="1.753" xlink:href="#linear-gradient-45"/>
+        <linearGradient id="linear-gradient-48" x1="1.549" y1="0.5" x2="2.549" y2="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#aa00be"/>
+            <stop offset="0.154" stop-color="#9001ae"/>
+            <stop offset="0.392" stop-color="#6e039a"/>
+            <stop offset="0.619" stop-color="#55048b"/>
+            <stop offset="0.827" stop-color="#470583"/>
+            <stop offset="1" stop-color="#420680"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-49" x1="-36.212" y1="-5.188" x2="-35.76" y2="-5.188" xlink:href="#linear-gradient-48"/>
+        <linearGradient id="linear-gradient-50" x1="-42.551" y1="-2.898" x2="-42.31" y2="-2.49" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f6e2f1"/>
+            <stop offset="0.035" stop-color="#f5ddf1"/>
+            <stop offset="0.307" stop-color="#f2bbf6"/>
+            <stop offset="0.566" stop-color="#efa2f9"/>
+            <stop offset="0.803" stop-color="#ee94fb"/>
+            <stop offset="1" stop-color="#ee8ffc"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-51" x1="-51.643" y1="-1.43" x2="-49.477" y2="-1.398" xlink:href="#linear-gradient-50"/>
+        <linearGradient id="linear-gradient-52" x1="-20.579" y1="-1.138" x2="-19.79" y2="-1.138" xlink:href="#linear-gradient-50"/>
+        <linearGradient id="linear-gradient-53" x1="-21.656" y1="-1.619" x2="-23.001" y2="-0.661" xlink:href="#linear-gradient-50"/>
+        <linearGradient id="linear-gradient-54" x1="-62.065" y1="-11.092" x2="-62.087" y2="-9.774" xlink:href="#linear-gradient-50"/>
+    </defs>
+    <g id="Сгруппировать_2989" data-name="Сгруппировать 2989" transform="translate(-18 -1990)">
+        <ellipse id="Эллипс_1806" data-name="Эллипс 1806" cx="357" cy="335.5" rx="357" ry="335.5" transform="translate(18 1990)" opacity="0.466" fill="url(#radial-gradient)"/>
+        <g id="Сгруппировать_2448" data-name="Сгруппировать 2448" transform="translate(145.295 2071.874)">
+            <path id="Контур_5807" data-name="Контур 5807" d="M1468.294,6424.9c-18.974-7.32-9.2-14.193-25.34-23.51s-23.9-4.833-40.036-14.149-8.372-13.8-24.509-23.116-23.9-4.833-40.037-14.15-8.372-13.8-24.508-23.116-23.9-4.832-40.037-14.149-8.372-13.8-24.509-23.115-23.9-4.835-40.04-14.151-11.147-11.683-23.828-22.637c-2.521-2.179-5.238-2.333-2.03-4.185s10.974,2.63,14.182.777-4.555-6.336-1.346-8.188,10.974,2.629,14.183.777-4.556-6.336-1.348-8.188,10.974,2.63,14.184.776-4.555-6.335-1.345-8.188,10.975,2.628,14.185.775,1.813-10.039,5.588-8.583c18.975,7.319,9.2,14.193,25.34,23.509s23.9,4.833,40.036,14.149,8.372,13.8,24.509,23.115,23.9,4.834,40.037,14.151,8.372,13.8,24.508,23.115,23.9,4.833,40.037,14.15,8.372,13.8,24.509,23.115,23.9,4.835,40.039,14.152,11.147,11.681,23.828,22.637c2.521,2.178,5.238,2.333,2.03,4.185s-10.973-2.629-14.182-.777,4.556,6.336,1.347,8.188-10.974-2.629-14.183-.777,4.556,6.335,1.348,8.187-10.974-2.629-14.184-.775,4.555,6.336,1.346,8.188-12.635-2.421-14.994-.181C1469.012,6420.768,1472.069,6426.356,1468.294,6424.9Z" transform="translate(-1181.959 -5982.171)" opacity="0.3" fill="url(#linear-gradient)"/>
+            <g id="Сгруппировать_2415" data-name="Сгруппировать 2415" transform="translate(151.456 92.389)">
+                <g id="Сгруппировать_2329" data-name="Сгруппировать 2329" transform="translate(0)" style="isolation: isolate">
+                    <g id="Сгруппировать_2323" data-name="Сгруппировать 2323" transform="translate(0.262)">
+                        <path id="Контур_5808" data-name="Контур 5808" d="M1487.669,5933.419l8.367-4.862,9.109,5.259-8.367,4.863Z" transform="translate(-1487.669 -5928.557)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2324" data-name="Сгруппировать 2324" transform="translate(9.109 5.259)">
+                        <path id="Контур_5809" data-name="Контур 5809" d="M1505.756,5944.017l8.367-4.862-.262,92.457-8.367,4.862Z" transform="translate(-1505.494 -5939.155)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2328" data-name="Сгруппировать 2328" transform="translate(0 4.862)">
+                        <path id="Контур_5810" data-name="Контур 5810" d="M1487.14,6030.812l.262-92.458,9.109,5.259-.262,92.457Z" transform="translate(-1487.14 -5938.354)" fill="url(#linear-gradient-4)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2336" data-name="Сгруппировать 2336" transform="translate(14.077 13.479)" style="isolation: isolate">
+                    <g id="Сгруппировать_2330" data-name="Сгруппировать 2330" transform="translate(0.247)">
+                        <path id="Контур_5811" data-name="Контур 5811" d="M1516,5960.581l8.367-4.862,9.111,5.26-8.367,4.862Z" transform="translate(-1516.004 -5955.719)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2331" data-name="Сгруппировать 2331" transform="translate(9.111 5.26)">
+                        <path id="Контур_5812" data-name="Контур 5812" d="M1534.112,5971.181l8.367-4.863-.247,87.106-8.367,4.862Z" transform="translate(-1533.865 -5966.318)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2335" data-name="Сгруппировать 2335" transform="translate(0 4.863)">
+                        <path id="Контур_5813" data-name="Контур 5813" d="M1515.506,6052.622l.247-87.105,9.111,5.26-.247,87.1Z" transform="translate(-1515.506 -5965.516)" fill="url(#linear-gradient-7)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2343" data-name="Сгруппировать 2343" transform="translate(28.157 26.249)" style="isolation: isolate">
+                    <g id="Сгруппировать_2337" data-name="Сгруппировать 2337" transform="translate(0.234)">
+                        <path id="Контур_5814" data-name="Контур 5814" d="M1544.348,5986.311l8.367-4.862,9.109,5.259-8.367,4.862Z" transform="translate(-1544.348 -5981.448)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2338" data-name="Сгруппировать 2338" transform="translate(9.109 5.259)">
+                        <path id="Контур_5815" data-name="Контур 5815" d="M1562.464,5996.907l8.367-4.862-.234,82.465-8.367,4.862Z" transform="translate(-1562.23 -5992.045)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2342" data-name="Сгруппировать 2342" transform="translate(0 4.863)">
+                        <path id="Контур_5816" data-name="Контур 5816" d="M1543.876,6073.711l.234-82.466,9.109,5.259-.234,82.465Z" transform="translate(-1543.876 -5991.246)" fill="url(#linear-gradient-10)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2350" data-name="Сгруппировать 2350" transform="translate(42.235 42.227)" style="isolation: isolate">
+                    <g id="Сгруппировать_2344" data-name="Сгруппировать 2344" transform="translate(0.212)">
+                        <path id="Контур_5817" data-name="Контур 5817" d="M1572.668,6018.506l8.367-4.862,9.109,5.259-8.367,4.863Z" transform="translate(-1572.668 -6013.644)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2345" data-name="Сгруппировать 2345" transform="translate(9.109 5.259)">
+                        <path id="Контур_5818" data-name="Контур 5818" d="M1590.807,6029.1l8.367-4.862-.212,74.614-8.367,4.863Z" transform="translate(-1590.596 -6024.24)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2349" data-name="Сгруппировать 2349" transform="translate(0 4.863)">
+                        <path id="Контур_5819" data-name="Контур 5819" d="M1572.242,6098.056l.212-74.614,9.109,5.259-.212,74.615Z" transform="translate(-1572.242 -6023.441)" fill="url(#linear-gradient-13)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2357" data-name="Сгруппировать 2357" transform="translate(56.312 68.987)" style="isolation: isolate">
+                    <g id="Сгруппировать_2351" data-name="Сгруппировать 2351" transform="translate(0.159)">
+                        <path id="Контур_5820" data-name="Контур 5820" d="M1600.927,6072.427l8.367-4.862,9.109,5.259-8.367,4.862Z" transform="translate(-1600.927 -6067.564)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2352" data-name="Сгруппировать 2352" transform="translate(9.109 5.259)">
+                        <path id="Контур_5821" data-name="Контур 5821" d="M1619.12,6083.024l8.367-4.862-.159,55.981-8.367,4.863Z" transform="translate(-1618.962 -6078.162)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2356" data-name="Сгруппировать 2356" transform="translate(0 4.863)">
+                        <path id="Контур_5822" data-name="Контур 5822" d="M1600.608,6133.346l.159-55.982,9.109,5.258-.159,55.983Z" transform="translate(-1600.608 -6077.363)" fill="url(#linear-gradient-16)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2364" data-name="Сгруппировать 2364" transform="translate(70.389 85.242)" style="isolation: isolate">
+                    <g id="Сгруппировать_2358" data-name="Сгруппировать 2358" transform="translate(0.136)">
+                        <path id="Контур_5823" data-name="Контур 5823" d="M1629.247,6105.18l8.367-4.862,9.109,5.258-8.367,4.862Z" transform="translate(-1629.247 -6100.317)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2359" data-name="Сгруппировать 2359" transform="translate(9.109 5.259)">
+                        <path id="Контур_5824" data-name="Контур 5824" d="M1647.463,6115.776l8.367-4.863-.135,47.855-8.367,4.862Z" transform="translate(-1647.327 -6110.914)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2363" data-name="Сгруппировать 2363" transform="translate(0 4.862)">
+                        <path id="Контур_5825" data-name="Контур 5825" d="M1628.973,6157.971l.136-47.856,9.109,5.259-.135,47.855Z" transform="translate(-1628.973 -6110.114)" fill="url(#linear-gradient-19)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2371" data-name="Сгруппировать 2371" transform="translate(84.467 94.997)" style="isolation: isolate">
+                    <g id="Сгруппировать_2365" data-name="Сгруппировать 2365" transform="translate(0.131)">
+                        <path id="Контур_5826" data-name="Контур 5826" d="M1657.6,6124.837l8.367-4.862,9.109,5.259-8.367,4.862Z" transform="translate(-1657.603 -6119.975)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2366" data-name="Сгруппировать 2366" transform="translate(9.109 5.259)">
+                        <path id="Контур_5827" data-name="Контур 5827" d="M1675.824,6135.434l8.367-4.863-.131,46.228-8.367,4.863Z" transform="translate(-1675.693 -6130.571)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2370" data-name="Сгруппировать 2370" transform="translate(0 4.862)">
+                        <path id="Контур_5828" data-name="Контур 5828" d="M1657.339,6176l.131-46.227,9.109,5.259-.131,46.228Z" transform="translate(-1657.339 -6129.772)" fill="url(#linear-gradient-22)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2378" data-name="Сгруппировать 2378" transform="translate(98.544 114.516)" style="isolation: isolate">
+                    <g id="Сгруппировать_2372" data-name="Сгруппировать 2372" transform="translate(0.099)">
+                        <path id="Контур_5829" data-name="Контур 5829" d="M1685.9,6164.167l8.367-4.863,9.109,5.259-8.367,4.862Z" transform="translate(-1685.903 -6159.305)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2373" data-name="Сгруппировать 2373" transform="translate(9.109 5.259)">
+                        <path id="Контур_5830" data-name="Контур 5830" d="M1704.157,6174.764l8.367-4.862-.1,34.835-8.367,4.863Z" transform="translate(-1704.058 -6169.902)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2377" data-name="Сгруппировать 2377" transform="translate(0 4.863)">
+                        <path id="Контур_5831" data-name="Контур 5831" d="M1685.7,6203.938l.1-34.836,9.109,5.259-.1,34.835Z" transform="translate(-1685.704 -6169.103)" fill="url(#linear-gradient-25)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2385" data-name="Сгруппировать 2385" transform="translate(112.621 129.488)" style="isolation: isolate">
+                    <g id="Сгруппировать_2379" data-name="Сгруппировать 2379" transform="translate(0.079)">
+                        <path id="Контур_5832" data-name="Контур 5832" d="M1714.23,6194.336l8.367-4.863,9.111,5.26-8.367,4.863Z" transform="translate(-1714.23 -6189.473)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2380" data-name="Сгруппировать 2380" transform="translate(9.111 5.26)">
+                        <path id="Контур_5833" data-name="Контур 5833" d="M1732.508,6204.936l8.367-4.863-.079,27.991-8.367,4.863Z" transform="translate(-1732.429 -6200.072)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2384" data-name="Сгруппировать 2384" transform="translate(0 4.863)">
+                        <path id="Контур_5834" data-name="Контур 5834" d="M1714.07,6227.262l.079-27.991,9.111,5.261-.079,27.99Z" transform="translate(-1714.07 -6199.271)" fill="url(#linear-gradient-28)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2392" data-name="Сгруппировать 2392" transform="translate(126.699 130.771)" style="isolation: isolate">
+                    <g id="Сгруппировать_2386" data-name="Сгруппировать 2386" transform="translate(0.099)">
+                        <path id="Контур_5835" data-name="Контур 5835" d="M1742.634,6196.92l8.367-4.863,9.111,5.261-8.367,4.863Z" transform="translate(-1742.634 -6192.058)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2387" data-name="Сгруппировать 2387" transform="translate(9.111 5.26)">
+                        <path id="Контур_5836" data-name="Контур 5836" d="M1760.893,6207.521l8.367-4.862-.1,34.835-8.367,4.863Z" transform="translate(-1760.794 -6202.659)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2391" data-name="Сгруппировать 2391" transform="translate(0 4.863)">
+                        <path id="Контур_5837" data-name="Контур 5837" d="M1742.435,6236.692l.1-34.836,9.111,5.261-.1,34.835Z" transform="translate(-1742.435 -6201.856)" fill="url(#linear-gradient-31)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2399" data-name="Сгруппировать 2399" transform="translate(140.779 143.366)" style="isolation: isolate">
+                    <g id="Сгруппировать_2393" data-name="Сгруппировать 2393" transform="translate(0.086)">
+                        <path id="Контур_5838" data-name="Контур 5838" d="M1770.979,6222.3l8.367-4.863,9.109,5.26-8.367,4.862Z" transform="translate(-1770.979 -6217.437)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2394" data-name="Сгруппировать 2394" transform="translate(9.109 5.259)">
+                        <path id="Контур_5839" data-name="Контур 5839" d="M1789.246,6232.9l8.367-4.862-.086,30.369-8.367,4.863Z" transform="translate(-1789.16 -6228.034)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2398" data-name="Сгруппировать 2398" transform="translate(0 4.863)">
+                        <path id="Контур_5840" data-name="Контур 5840" d="M1770.806,6257.6l.086-30.37,9.109,5.259-.086,30.37Z" transform="translate(-1770.806 -6227.235)" fill="url(#linear-gradient-34)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2406" data-name="Сгруппировать 2406" transform="translate(154.856 158.071)" style="isolation: isolate">
+                    <g id="Сгруппировать_2400" data-name="Сгруппировать 2400" transform="translate(0.067)">
+                        <path id="Контур_5841" data-name="Контур 5841" d="M1799.307,6251.93l8.367-4.863,9.109,5.259-8.367,4.863Z" transform="translate(-1799.307 -6247.067)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2401" data-name="Сгруппировать 2401" transform="translate(9.109 5.259)">
+                        <path id="Контур_5842" data-name="Контур 5842" d="M1817.593,6262.526l8.367-4.863-.068,23.792-8.367,4.862Z" transform="translate(-1817.525 -6257.664)" fill="url(#linear-gradient-3)"/>
+                    </g>
+                    <g id="Сгруппировать_2405" data-name="Сгруппировать 2405" transform="translate(0 4.863)">
+                        <path id="Контур_5843" data-name="Контур 5843" d="M1799.172,6280.657l.067-23.792,9.109,5.26-.068,23.792Z" transform="translate(-1799.172 -6256.865)" fill="url(#linear-gradient-37)"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2414" data-name="Сгруппировать 2414" transform="translate(168.933 175.861)" style="isolation: isolate">
+                    <g id="Сгруппировать_2407" data-name="Сгруппировать 2407" transform="translate(0.04)">
+                        <path id="Контур_5844" data-name="Контур 5844" d="M1827.618,6287.774l8.367-4.862,9.109,5.259-8.367,4.862Z" transform="translate(-1827.618 -6282.913)" fill="url(#linear-gradient-2)"/>
+                    </g>
+                    <g id="Сгруппировать_2408" data-name="Сгруппировать 2408" transform="translate(9.109 5.259)">
+                        <path id="Контур_5845" data-name="Контур 5845" d="M1845.931,6298.372l8.367-4.862-.04,14.13-8.367,4.863Z" transform="translate(-1845.891 -6293.509)" fill="url(#linear-gradient-39)"/>
+                    </g>
+                    <g id="Сгруппировать_2413" data-name="Сгруппировать 2413" transform="translate(0 4.862)">
+                        <path id="Контур_5846" data-name="Контур 5846" d="M1827.537,6306.84l.04-14.131,9.109,5.259-.04,14.13Z" transform="translate(-1827.537 -6292.709)" fill="#848484"/>
+                        <g id="Сгруппировать_2412" data-name="Сгруппировать 2412" style="isolation: isolate">
+                            <g id="Сгруппировать_2411" data-name="Сгруппировать 2411" clip-path="url(#clip-path-13)">
+                                <g id="Сгруппировать_2410" data-name="Сгруппировать 2410">
+                                    <g id="Сгруппировать_2409" data-name="Сгруппировать 2409">
+                                        <path id="SVGID-14" data-name="SVGID" d="M1836.646,6312.1l-9.109-5.259.04-14.131,9.109,5.259-.04,14.13" transform="translate(-1827.537 -6292.709)" fill="url(#linear-gradient-40)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Сгруппировать_2424" data-name="Сгруппировать 2424" transform="translate(378.062 192.446)">
+                <g id="Сгруппировать_2417" data-name="Сгруппировать 2417" transform="translate(0)" opacity="0.7" style="mix-blend-mode: color-dodge;isolation: isolate">
+                    <g id="Сгруппировать_2416" data-name="Сгруппировать 2416">
+                        <path id="Контур_5847" data-name="Контур 5847" d="M2003.388,6255.947l-59.642-34.434v-91.344l59.642,34.434Z" transform="translate(-1943.746 -6130.169)" fill="#4e5fec" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                    </g>
+                </g>
+                <path id="Контур_5848" data-name="Контур 5848" d="M2003.734,6312.833l-44.026-25.418V6265.1l44.026,25.418Z" transform="translate(-1951.786 -6198.135)" fill="#09bfff"/>
+                <g id="Сгруппировать_2420" data-name="Сгруппировать 2420" transform="translate(0)" opacity="0.6">
+                    <g id="Сгруппировать_2419" data-name="Сгруппировать 2419">
+                        <path id="Контур_5849" data-name="Контур 5849" d="M2003.388,6255.947l-59.642-34.434v-91.344l59.642,34.434Z" transform="translate(-1943.746 -6130.169)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.024" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                        <g id="Сгруппировать_2418" data-name="Сгруппировать 2418" opacity="0.5">
+                            <path id="Контур_5850" data-name="Контур 5850" d="M2003.388,6255.947l-59.642-34.434v-91.344l59.642,34.434Z" transform="translate(-1943.746 -6130.169)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.024"/>
+                        </g>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2423" data-name="Сгруппировать 2423" transform="translate(8.42 25.6)">
+                    <g id="Сгруппировать_2421" data-name="Сгруппировать 2421" transform="translate(0 20.297)" style="mix-blend-mode: color-dodge;isolation: isolate">
+                        <path id="Контур_5851" data-name="Контур 5851" d="M1966.09,6227.706l-5.379-3.106v-1.95l5.379,3.105Z" transform="translate(-1960.711 -6222.65)" fill="#09bfff"/>
+                        <path id="Контур_5852" data-name="Контур 5852" d="M1976.928,6233.963l-5.379-3.105v-1.95l5.379,3.105Z" transform="translate(-1966.171 -6225.802)" fill="#09bfff"/>
+                        <path id="Контур_5853" data-name="Контур 5853" d="M1987.766,6240.221l-5.379-3.106v-1.95l5.379,3.105Z" transform="translate(-1971.63 -6228.954)" fill="#09bfff"/>
+                        <path id="Контур_5854" data-name="Контур 5854" d="M2009.443,6252.736l-5.379-3.106v-1.949l5.379,3.105Z" transform="translate(-1982.549 -6235.258)" fill="#09bfff"/>
+                        <path id="Контур_5855" data-name="Контур 5855" d="M2020.281,6258.993l-5.379-3.106v-1.949l5.379,3.1Z" transform="translate(-1988.008 -6238.411)" fill="#09bfff"/>
+                        <path id="Контур_5856" data-name="Контур 5856" d="M1966.09,6236.222l-5.379-3.105v-1.95l5.379,3.105Z" transform="translate(-1960.711 -6226.94)" fill="#09bfff"/>
+                        <path id="Контур_5857" data-name="Контур 5857" d="M1987.766,6248.737l-5.379-3.105v-1.95l5.379,3.1Z" transform="translate(-1971.63 -6233.244)" fill="#09bfff"/>
+                        <path id="Контур_5858" data-name="Контур 5858" d="M1998.6,6255l-5.379-3.106v-1.95l5.379,3.105Z" transform="translate(-1977.089 -6236.396)" fill="#09bfff"/>
+                        <path id="Контур_5859" data-name="Контур 5859" d="M2020.281,6267.51l-5.379-3.106v-1.949l5.379,3.105Z" transform="translate(-1988.008 -6242.7)" fill="#09bfff"/>
+                        <path id="Контур_5860" data-name="Контур 5860" d="M1966.09,6244.74l-5.379-3.106v-1.95l5.379,3.1Z" transform="translate(-1960.711 -6231.23)" fill="#09bfff"/>
+                        <path id="Контур_5861" data-name="Контур 5861" d="M1976.928,6251l-5.379-3.105v-1.951l5.379,3.106Z" transform="translate(-1966.171 -6234.381)" fill="#09bfff"/>
+                        <path id="Контур_5862" data-name="Контур 5862" d="M1998.6,6263.512l-5.379-3.105v-1.949l5.379,3.1Z" transform="translate(-1977.089 -6240.688)" fill="#09bfff"/>
+                        <path id="Контур_5863" data-name="Контур 5863" d="M2020.281,6276.027l-5.379-3.106v-1.949l5.379,3.1Z" transform="translate(-1988.008 -6246.99)" fill="#09bfff"/>
+                        <path id="Контур_5864" data-name="Контур 5864" d="M1966.09,6253.256l-5.379-3.105V6248.2l5.379,3.1Z" transform="translate(-1960.711 -6235.521)" fill="#09bfff"/>
+                        <path id="Контур_5865" data-name="Контур 5865" d="M1976.928,6259.513l-5.379-3.1v-1.95l5.379,3.1Z" transform="translate(-1966.171 -6238.672)" fill="#09bfff"/>
+                        <path id="Контур_5866" data-name="Контур 5866" d="M1998.6,6272.028l-5.379-3.1v-1.95l5.379,3.106Z" transform="translate(-1977.089 -6244.976)" fill="#09bfff"/>
+                        <path id="Контур_5867" data-name="Контур 5867" d="M2020.281,6284.543l-5.379-3.106v-1.95l5.379,3.105Z" transform="translate(-1988.008 -6251.28)" fill="#09bfff"/>
+                    </g>
+                    <g id="Сгруппировать_2422" data-name="Сгруппировать 2422" style="mix-blend-mode: color-dodge;isolation: isolate">
+                        <path id="Контур_5868" data-name="Контур 5868" d="M1966.09,6186.806l-5.379-3.1v-1.951l5.379,3.106Z" transform="translate(-1960.711 -6181.75)" fill="#09bfff"/>
+                        <path id="Контур_5869" data-name="Контур 5869" d="M1987.766,6199.321l-5.379-3.105v-1.949l5.379,3.1Z" transform="translate(-1971.63 -6188.055)" fill="#09bfff"/>
+                        <path id="Контур_5870" data-name="Контур 5870" d="M2009.443,6211.836l-5.379-3.106v-1.949l5.379,3.1Z" transform="translate(-1982.549 -6194.359)" fill="#09bfff"/>
+                        <path id="Контур_5871" data-name="Контур 5871" d="M2020.281,6218.093l-5.379-3.105v-1.95l5.379,3.105Z" transform="translate(-1988.008 -6197.511)" fill="#09bfff"/>
+                        <path id="Контур_5872" data-name="Контур 5872" d="M1966.09,6195.323l-5.379-3.106v-1.949l5.379,3.106Z" transform="translate(-1960.711 -6186.041)" fill="#09bfff"/>
+                        <path id="Контур_5873" data-name="Контур 5873" d="M1987.766,6207.838l-5.379-3.105v-1.95l5.379,3.106Z" transform="translate(-1971.63 -6192.345)" fill="#09bfff"/>
+                        <path id="Контур_5874" data-name="Контур 5874" d="M1998.6,6214.1l-5.379-3.106v-1.949l5.379,3.1Z" transform="translate(-1977.089 -6195.497)" fill="#09bfff"/>
+                        <path id="Контур_5875" data-name="Контур 5875" d="M2020.281,6226.611l-5.379-3.106v-1.95l5.379,3.105Z" transform="translate(-1988.008 -6201.801)" fill="#09bfff"/>
+                        <path id="Контур_5876" data-name="Контур 5876" d="M1966.09,6203.84l-5.379-3.105v-1.95l5.379,3.105Z" transform="translate(-1960.711 -6190.331)" fill="#09bfff"/>
+                        <path id="Контур_5877" data-name="Контур 5877" d="M1976.928,6210.1l-5.379-3.1v-1.95l5.379,3.105Z" transform="translate(-1966.171 -6193.483)" fill="#09bfff"/>
+                        <path id="Контур_5878" data-name="Контур 5878" d="M1998.6,6222.612l-5.379-3.1v-1.95l5.379,3.1Z" transform="translate(-1977.089 -6199.787)" fill="#09bfff"/>
+                        <path id="Контур_5879" data-name="Контур 5879" d="M2020.281,6235.126l-5.379-3.105v-1.949l5.379,3.105Z" transform="translate(-1988.008 -6206.09)" fill="#09bfff"/>
+                        <path id="Контур_5880" data-name="Контур 5880" d="M1966.09,6212.357l-5.379-3.106V6207.3l5.379,3.1Z" transform="translate(-1960.711 -6194.621)" fill="#09bfff"/>
+                        <path id="Контур_5881" data-name="Контур 5881" d="M1976.928,6218.614l-5.379-3.1v-1.95l5.379,3.106Z" transform="translate(-1966.171 -6197.772)" fill="#09bfff"/>
+                        <path id="Контур_5882" data-name="Контур 5882" d="M1998.6,6231.129l-5.379-3.105v-1.949l5.379,3.105Z" transform="translate(-1977.089 -6204.078)" fill="#09bfff"/>
+                        <path id="Контур_5883" data-name="Контур 5883" d="M2020.281,6243.644l-5.379-3.105v-1.95l5.379,3.105Z" transform="translate(-1988.008 -6210.381)" fill="#09bfff"/>
+                    </g>
+                </g>
+            </g>
+            <g class="animatePosVertical1">
+            <g id="Сгруппировать_2432" data-name="Сгруппировать 2432" transform="translate(187.663 0)">
+                <g id="Сгруппировать_2431" data-name="Сгруппировать 2431" transform="translate(9.132 35.69)">
+                    <g id="Artwork_133" data-name="Artwork 133">
+                        <g id="Сгруппировать_2425" data-name="Сгруппировать 2425">
+                            <path id="Контур_5884" data-name="Контур 5884" d="M1616.732,5900.951l-38.234-22.074v-1.313l38.234,22.074Z" transform="translate(-1578.498 -5846.172)" fill="#fff"/>
+                            <path id="Контур_5885" data-name="Контур 5885" d="M1579.528,5818.687v30.171l-.313-.18v-30.171Z" transform="translate(-1578.859 -5816.423)" fill="#fff"/>
+                            <path id="Контур_5886" data-name="Контур 5886" d="M1587.286,5863.6l-3.537-2.042V5841.5l3.537,2.042Z" transform="translate(-1581.143 -5828.006)" fill="#fff"/>
+                            <path id="Контур_5887" data-name="Контур 5887" d="M1596.96,5852.02l-3.537-2.042v-35.668l3.537,2.042Z" transform="translate(-1586.016 -5814.309)" fill="#fff"/>
+                            <path id="Контур_5888" data-name="Контур 5888" d="M1606.634,5866.638l-3.538-2.042v-26.769l3.538,2.042Z" transform="translate(-1590.889 -5826.155)" fill="#fff"/>
+                            <path id="Контур_5889" data-name="Контур 5889" d="M1616.308,5868.077l-3.537-2.042V5835.18l3.537,2.043Z" transform="translate(-1595.762 -5824.822)" fill="#fff"/>
+                            <path id="Контур_5890" data-name="Контур 5890" d="M1625.982,5888.172l-3.537-2.042v-16.559l3.537,2.042Z" transform="translate(-1600.634 -5842.146)" fill="#fff"/>
+                            <path id="Контур_5891" data-name="Контур 5891" d="M1635.655,5883.393l-3.537-2.042v-26.77l3.537,2.042Z" transform="translate(-1605.507 -5834.595)" fill="#fff"/>
+                            <path id="Контур_5892" data-name="Контур 5892" d="M1645.329,5874.6l-3.538-2.042V5831.63l3.538,2.042Z" transform="translate(-1610.38 -5823.033)" fill="#fff"/>
+                        </g>
+                    </g>
+                    <g id="Artwork_132" data-name="Artwork 132" transform="translate(41.801 24.645)">
+                        <g id="Сгруппировать_2430" data-name="Сгруппировать 2430">
+                            <path id="Контур_5893" data-name="Контур 5893" d="M1665.634,5891.315v.035c0,9.92,6.961,21.979,15.551,26.944v-18Z" transform="translate(-1664.191 -5877.744)" fill="#09bfff"/>
+                            <path id="Контур_5894" data-name="Контур 5894" d="M1714.4,5921.616v.038c0,4.97-1.749,8.461-4.575,10.081l-10.993-19.04v-.067Z" transform="translate(-1680.913 -5888.478)" fill="#fff"/>
+                            <path id="Контур_5895" data-name="Контур 5895" d="M1709.823,5931.8c-2.814,1.614-6.7,1.376-10.985-1.1l-.009,0v-17.936Z" transform="translate(-1680.913 -5888.546)" fill="#fff"/>
+                            <path id="Контур_5896" data-name="Контур 5896" d="M1667.3,5865c-2.815,1.618-4.559,5.094-4.568,10.043l15.55,8.978v-17.93C1673.99,5863.616,1670.108,5863.38,1667.3,5865Z" transform="translate(-1662.727 -5863.969)" fill="#fff"/>
+                            <path id="Контур_5897" data-name="Контур 5897" d="M1696.977,5873.282l-.009,0v17.929l15.568,8.988C1712.519,5890.279,1705.56,5878.237,1696.977,5873.282Z" transform="translate(-1679.975 -5868.657)" fill="#09bfff"/>
+                            <g id="Сгруппировать_2426" data-name="Сгруппировать 2426" transform="translate(20.167 14.717)">
+                                <path id="Контур_5898" data-name="Контур 5898" d="M1709.857,5898.072l-6.494-3.75v-.7l6.494,3.749Z" transform="translate(-1703.363 -5893.623)" fill="#d6e7f7"/>
+                                <path id="Контур_5899" data-name="Контур 5899" d="M1709.857,5901.294l-6.494-3.75v-.7l6.494,3.75Z" transform="translate(-1703.363 -5895.246)" fill="#d6e7f7"/>
+                                <path id="Контур_5900" data-name="Контур 5900" d="M1709.857,5904.518l-6.494-3.749v-.7l6.494,3.75Z" transform="translate(-1703.363 -5896.869)" fill="#d6e7f7"/>
+                            </g>
+                            <g id="Сгруппировать_2427" data-name="Сгруппировать 2427" transform="translate(5.971 5.41)">
+                                <path id="Контур_5901" data-name="Контур 5901" d="M1681.253,5879.318l-6.494-3.75v-.7l6.494,3.749Z" transform="translate(-1674.759 -5874.869)" fill="#d6e7f7"/>
+                                <path id="Контур_5902" data-name="Контур 5902" d="M1681.253,5882.542l-6.494-3.75v-.7l6.494,3.75Z" transform="translate(-1674.759 -5876.492)" fill="#d6e7f7"/>
+                                <path id="Контур_5903" data-name="Контур 5903" d="M1681.253,5885.765l-6.494-3.749v-.7l6.494,3.75Z" transform="translate(-1674.759 -5878.116)" fill="#d6e7f7"/>
+                            </g>
+                            <g id="Сгруппировать_2428" data-name="Сгруппировать 2428" transform="translate(7.241 20.229)">
+                                <path id="Контур_5904" data-name="Контур 5904" d="M1683.812,5909.18l-6.494-3.75v-.7l6.494,3.75Z" transform="translate(-1677.318 -5904.73)" fill="#d6e7f7"/>
+                                <path id="Контур_5905" data-name="Контур 5905" d="M1683.812,5912.4l-6.494-3.749v-.7l6.494,3.749Z" transform="translate(-1677.318 -5906.354)" fill="#d6e7f7"/>
+                                <path id="Контур_5906" data-name="Контур 5906" d="M1683.812,5915.625l-6.494-3.749v-.7l6.494,3.749Z" transform="translate(-1677.318 -5907.977)" fill="#d6e7f7"/>
+                            </g>
+                            <g id="Сгруппировать_2429" data-name="Сгруппировать 2429" transform="translate(20.672 28.683)">
+                                <path id="Контур_5907" data-name="Контур 5907" d="M1710.874,5926.214l-6.494-3.749v-.7l6.494,3.749Z" transform="translate(-1704.38 -5921.766)" fill="#d6e7f7"/>
+                                <path id="Контур_5908" data-name="Контур 5908" d="M1710.874,5929.438l-6.494-3.75v-.7l6.494,3.749Z" transform="translate(-1704.38 -5923.389)" fill="#d6e7f7"/>
+                                <path id="Контур_5909" data-name="Контур 5909" d="M1710.874,5932.661l-6.494-3.75v-.7l6.494,3.749Z" transform="translate(-1704.38 -5925.012)" fill="#d6e7f7"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path id="Контур_5910" data-name="Контур 5910" d="M1656.613,5877.711l-96.516-55.724v-79.594l96.516,55.724Z" transform="translate(-1560.096 -5742.394)" fill="#4e5fec" opacity="0.7" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+            </g>
+            </g>
+            <path id="Контур_5911" data-name="Контур 5911" d="M1468.294,6378.293c-18.974-7.319-9.2-14.193-25.34-23.51s-23.9-4.833-40.036-14.148-8.372-13.8-24.509-23.117-23.9-4.832-40.037-14.148-8.372-13.8-24.508-23.116-23.9-4.834-40.037-14.149-8.372-13.8-24.509-23.116-23.9-4.834-40.04-14.151-11.147-11.682-23.828-22.636c-2.521-2.179-5.238-2.333-2.03-4.185s10.974,2.629,14.182.776-4.555-6.336-1.346-8.188,10.974,2.63,14.183.777-4.556-6.335-1.348-8.187,10.974,2.63,14.184.776-4.555-6.336-1.345-8.188,10.975,2.629,14.185.775,1.813-10.04,5.588-8.584c18.975,7.32,9.2,14.193,25.34,23.51s23.9,4.834,40.036,14.149,8.372,13.8,24.509,23.116,23.9,4.833,40.037,14.149,8.372,13.8,24.508,23.116,23.9,4.832,40.037,14.149,8.372,13.8,24.509,23.116,23.9,4.834,40.039,14.149,11.147,11.684,23.828,22.638c2.521,2.178,5.238,2.333,2.03,4.186s-10.973-2.631-14.182-.778,4.556,6.336,1.347,8.188-10.974-2.629-14.183-.776,4.556,6.335,1.348,8.188-10.974-2.63-14.184-.776,4.555,6.335,1.346,8.188-12.635-2.421-14.994-.182C1469.012,6374.16,1472.069,6379.749,1468.294,6378.293Z" transform="translate(-1181.959 -5958.693)" fill="url(#linear-gradient-41)"/>
+            <path id="Контур_5912" data-name="Контур 5912" d="M1591.186,6315.123c-18.975-7.319-9.2-14.194-25.341-23.509s-23.9-4.833-40.036-14.149-8.372-13.8-24.509-23.116-23.9-4.833-40.037-14.15-8.372-13.8-24.509-23.115-23.9-4.833-40.037-14.15-8.372-13.8-24.509-23.116-23.9-4.834-40.04-14.151-11.147-11.682-23.828-22.637c-2.521-2.177-5.239-2.332-2.03-4.184s10.974,2.63,14.182.777-4.555-6.335-1.346-8.188,10.974,2.63,14.183.777-4.556-6.336-1.348-8.187,10.974,2.629,14.183.776-4.555-6.336-1.345-8.189,10.975,2.629,14.185.775,1.813-10.039,5.588-8.583c18.975,7.32,9.2,14.193,25.341,23.51s23.9,4.833,40.036,14.149,8.372,13.8,24.509,23.116,23.9,4.833,40.037,14.149,8.372,13.8,24.509,23.115,23.9,4.834,40.037,14.15,8.372,13.8,24.509,23.116,23.9,4.834,40.04,14.151,11.147,11.681,23.828,22.636c2.522,2.178,5.239,2.333,2.03,4.185s-10.973-2.63-14.182-.778,4.555,6.335,1.347,8.188-10.974-2.629-14.183-.777,4.556,6.335,1.347,8.188-10.974-2.629-14.183-.776,4.554,6.336,1.345,8.189-12.635-2.421-14.994-.182C1591.9,6310.99,1594.96,6316.579,1591.186,6315.123Z" transform="translate(-1243.862 -5926.874)" fill="url(#linear-gradient-42)"/>
+            <path id="Контур_5913" data-name="Контур 5913" d="M1497.708,6308.668l-288.917-166.806v-9.04l99.388-48.342L1597.1,6242.247v9.039Z" transform="translate(-1195.475 -5914.709)" fill="#040c69"/>
+            <path id="Контур_5914" data-name="Контур 5914" d="M1497.708,6290.453l-288.917-166.806,99.388-57.383L1597.1,6233.071Z" transform="translate(-1195.475 -5905.533)" fill="#fff"/>
+            <path id="Контур_5915" data-name="Контур 5915" d="M1495.7,6284.214l-268.516-155.028-.923-10.546,90.717-52.375,275.314,158.953-.633,16.073-73.166,42.242Z" transform="translate(-1204.276 -5905.533)" fill="url(#linear-gradient-3)"/>
+            <g id="Сгруппировать_2433" data-name="Сгруппировать 2433" transform="translate(29.942 170.207)" style="mix-blend-mode: color-dodge;isolation: isolate">
+                <path id="Контур_5916" data-name="Контур 5916" d="M1395.019,6101.458l2.713-1.565-4.445-2.567-2.713,1.566Z" transform="translate(-1316.984 -6091.387)" fill="#09bfff"/>
+                <path id="Контур_5917" data-name="Контур 5917" d="M1401.929,6097.47l2.713-1.566-4.445-2.567-2.713,1.567Z" transform="translate(-1320.465 -6089.377)" fill="#09bfff"/>
+                <path id="Контур_5918" data-name="Контур 5918" d="M1408.838,6093.481l2.713-1.567-4.445-2.566-2.713,1.567Z" transform="translate(-1323.945 -6087.368)" fill="#09bfff"/>
+                <path id="Контур_5919" data-name="Контур 5919" d="M1415.748,6089.491l2.713-1.565-4.445-2.567-2.713,1.566Z" transform="translate(-1327.425 -6085.358)" fill="#09bfff"/>
+                <path id="Контур_5920" data-name="Контур 5920" d="M1246.738,6183.021l2.713-1.567-4.445-2.566-2.713,1.566Z" transform="translate(-1242.292 -6132.471)" fill="#09bfff"/>
+                <path id="Контур_5921" data-name="Контур 5921" d="M1253.648,6179.032l2.713-1.566-4.446-2.567-2.713,1.566Z" transform="translate(-1245.773 -6130.461)" fill="#09bfff"/>
+                <path id="Контур_5922" data-name="Контур 5922" d="M1260.557,6175.042l2.713-1.565-4.445-2.567-2.713,1.566Z" transform="translate(-1249.253 -6128.452)" fill="#09bfff"/>
+                <path id="Контур_5923" data-name="Контур 5923" d="M1267.467,6171.053l2.713-1.565-4.445-2.567-2.713,1.567Z" transform="translate(-1252.734 -6126.442)" fill="#09bfff"/>
+                <path id="Контур_5924" data-name="Контур 5924" d="M1397.486,6256.909l-2.713-1.566-4.446,2.567,2.713,1.566Z" transform="translate(-1316.86 -6170.982)" fill="#09bfff"/>
+                <path id="Контур_5925" data-name="Контур 5925" d="M1390.577,6252.92l-2.713-1.567-4.446,2.567,2.713,1.567Z" transform="translate(-1313.38 -6168.972)" fill="#09bfff"/>
+                <path id="Контур_5926" data-name="Контур 5926" d="M1383.667,6248.931l-2.713-1.566-4.446,2.567,2.713,1.566Z" transform="translate(-1309.9 -6166.963)" fill="#09bfff"/>
+                <path id="Контур_5927" data-name="Контур 5927" d="M1376.758,6244.941l-2.713-1.567-4.446,2.567,2.713,1.567Z" transform="translate(-1306.419 -6164.953)" fill="#09bfff"/>
+                <path id="Контур_5928" data-name="Контур 5928" d="M1487.32,6243.551l-2.713-1.567-4.445,2.567,2.713,1.567Z" transform="translate(-1362.111 -6164.253)" fill="#09bfff"/>
+                <path id="Контур_5929" data-name="Контур 5929" d="M1480.411,6239.563,1477.7,6238l-4.446,2.567,2.713,1.567Z" transform="translate(-1358.63 -6162.244)" fill="#09bfff"/>
+                <path id="Контур_5930" data-name="Контур 5930" d="M1473.5,6235.573l-2.713-1.566-4.446,2.566,2.713,1.567Z" transform="translate(-1355.15 -6160.235)" fill="#09bfff"/>
+                <path id="Контур_5931" data-name="Контур 5931" d="M1466.592,6231.584l-2.713-1.567-4.446,2.567,2.713,1.567Z" transform="translate(-1351.67 -6158.225)" fill="#09bfff"/>
+                <path id="Контур_5932" data-name="Контур 5932" d="M1528.565,6299.918l-2.713-1.566-4.446,2.567,2.713,1.566Z" transform="translate(-1382.887 -6192.646)" fill="#09bfff"/>
+                <path id="Контур_5933" data-name="Контур 5933" d="M1521.656,6295.93l-2.713-1.566-4.445,2.567,2.713,1.565Z" transform="translate(-1379.406 -6190.638)" fill="#09bfff"/>
+                <path id="Контур_5934" data-name="Контур 5934" d="M1514.747,6291.941l-2.713-1.566-4.445,2.566,2.713,1.565Z" transform="translate(-1375.926 -6188.628)" fill="#09bfff"/>
+                <path id="Контур_5935" data-name="Контур 5935" d="M1507.837,6287.952l-2.713-1.567-4.445,2.567,2.713,1.566Z" transform="translate(-1372.446 -6186.619)" fill="#09bfff"/>
+                <path id="Контур_5936" data-name="Контур 5936" d="M1533.524,6335.451l-2.713-1.566-4.446,2.566,2.713,1.567Z" transform="translate(-1385.385 -6210.545)" fill="#09bfff"/>
+                <path id="Контур_5937" data-name="Контур 5937" d="M1526.615,6331.461l-2.713-1.566-4.446,2.567,2.713,1.566Z" transform="translate(-1381.904 -6208.536)" fill="#09bfff"/>
+                <path id="Контур_5938" data-name="Контур 5938" d="M1519.705,6327.472l-2.713-1.565-4.446,2.566,2.713,1.566Z" transform="translate(-1378.424 -6206.527)" fill="#09bfff"/>
+                <path id="Контур_5939" data-name="Контур 5939" d="M1512.8,6323.484l-2.713-1.567-4.446,2.566,2.713,1.566Z" transform="translate(-1374.943 -6204.517)" fill="#09bfff"/>
+                <path id="Контур_5940" data-name="Контур 5940" d="M1723.84,6266.433l-2.713-1.566-4.445,2.565,2.713,1.567Z" transform="translate(-1481.25 -6175.78)" fill="#09bfff"/>
+                <path id="Контур_5941" data-name="Контур 5941" d="M1716.931,6262.444l-2.713-1.566-4.445,2.566,2.713,1.566Z" transform="translate(-1477.769 -6173.771)" fill="#09bfff"/>
+                <path id="Контур_5942" data-name="Контур 5942" d="M1710.021,6258.455l-2.713-1.566-4.445,2.567,2.713,1.566Z" transform="translate(-1474.289 -6171.761)" fill="#09bfff"/>
+                <path id="Контур_5943" data-name="Контур 5943" d="M1703.112,6254.465l-2.713-1.566-4.445,2.567,2.713,1.566Z" transform="translate(-1470.809 -6169.75)" fill="#09bfff"/>
+                <path id="Контур_5944" data-name="Контур 5944" d="M1755.177,6284.524l-2.713-1.566-4.445,2.567,2.713,1.566Z" transform="translate(-1497.035 -6184.893)" fill="#09bfff"/>
+                <path id="Контур_5945" data-name="Контур 5945" d="M1748.267,6280.536l-2.713-1.566-4.445,2.567,2.713,1.566Z" transform="translate(-1493.554 -6182.884)" fill="#09bfff"/>
+                <path id="Контур_5946" data-name="Контур 5946" d="M1741.358,6276.547l-2.713-1.565-4.445,2.566,2.713,1.565Z" transform="translate(-1490.074 -6180.875)" fill="#09bfff"/>
+                <path id="Контур_5947" data-name="Контур 5947" d="M1734.448,6272.558l-2.713-1.566-4.445,2.566,2.713,1.566Z" transform="translate(-1486.593 -6178.864)" fill="#09bfff"/>
+                <path id="Контур_5948" data-name="Контур 5948" d="M1370.868,6101.517l64.005,36.954-3.59,2.073-54.873-31.682-31.273,18.056,78.712,45.445,34.863-20.128,4.392,2.536-48.46,27.978,27.065,15.626,48.82-28.187,5.74,3.314-67.894,39.2-.372-.214,67.522-38.983-5-2.885-48.82,28.186-27.809-16.055,48.46-27.978-3.649-2.106-34.863,20.128-79.456-45.874,32.016-18.484,54.873,31.681,2.846-1.644-63.633-36.739" transform="translate(-1293.723 -6093.498)" fill="#09bfff"/>
+                <path id="Контур_5949" data-name="Контур 5949" d="M1381.712,6097.353l67.584,39.02-10.748,6.206-54.873-31.682-24.115,13.923,71.554,41.312L1465.978,6146l11.55,6.668-48.46,27.979,19.907,11.494,48.82-28.187,12.9,7.447-71.473,41.264-.372-.214,71.1-41.05-12.154-7.018-48.82,28.187-20.651-11.923,48.46-27.979-10.806-6.239-34.863,20.128-72.3-41.741,24.859-14.353,54.873,31.681,10-5.775-67.212-38.8" transform="translate(-1300.987 -6091.4)" fill="#09bfff"/>
+                <path id="Контур_5950" data-name="Контур 5950" d="M1392.555,6093.191l71.162,41.085-17.9,10.338-54.873-31.682-16.958,9.791,64.4,37.18,34.863-20.128,18.707,10.8-48.46,27.979,12.75,7.361,48.82-28.187,20.055,11.579-75.051,43.331-.372-.215,74.679-43.116-19.311-11.149-48.82,28.187-13.494-7.791,48.46-27.979-17.963-10.37-34.863,20.128-65.141-37.609,17.7-10.22,54.873,31.681,17.161-9.909-70.791-40.871" transform="translate(-1308.252 -6089.303)" fill="#09bfff"/>
+                <path id="Контур_5951" data-name="Контур 5951" d="M1403.4,6089.027l74.741,43.152-25.062,14.47-54.873-31.681-9.8,5.658,57.24,33.048,34.863-20.128,25.864,14.933-48.46,27.978,5.593,3.229,48.82-28.187,27.212,15.712-78.63,45.4-.372-.215,78.258-45.182-26.468-15.281-48.82,28.186-6.336-3.659,48.46-27.978-25.12-14.5-34.863,20.128-57.984-33.477,10.545-6.088,54.873,31.68,24.318-14.039-74.369-42.938" transform="translate(-1315.516 -6087.207)" fill="#09bfff"/>
+                <path id="Контур_5952" data-name="Контур 5952" d="M1336.086,6207.005l28.178-16.269-24.679-14.248-23,13.276-4.481-2.586,23-13.277-29.45-17-23,13.277-9.265-5.349.372-.215,8.893,5.135,23-13.277,30.194,17.433-23,13.277,3.737,2.157,23-13.277,25.422,14.678-28.55,16.483" transform="translate(-1257.959 -6121.178)" fill="#09bfff"/>
+                <path id="Контур_5953" data-name="Контур 5953" d="M1328.875,6209.133l24.6-14.2-17.521-10.116-23,13.278-11.638-6.72,23-13.277-22.293-12.871-23,13.277-12.844-7.416.372-.214,12.472,7.2,23-13.277,23.036,13.3-23,13.277,10.894,6.29,23-13.277,18.265,10.545-24.972,14.418" transform="translate(-1254.326 -6125.372)" fill="#09bfff"/>
+                <path id="Контур_5954" data-name="Контур 5954" d="M1321.665,6211.261l21.021-12.136-10.364-5.983-23,13.277-18.8-10.852,23-13.277-15.136-8.738-23,13.277-16.422-9.481.372-.215,16.05,9.266,23-13.276,15.879,9.167-23,13.277,18.052,10.422,23-13.277,11.108,6.413-21.393,12.352" transform="translate(-1250.694 -6129.566)" fill="#09bfff"/>
+                <path id="Контур_5955" data-name="Контур 5955" d="M1314.454,6213.389l17.443-10.071-3.207-1.852-23,13.277-25.952-14.983,23-13.277-7.979-4.606-23,13.277-20-11.547.372-.215,19.629,11.333,23-13.277,8.722,5.036-23,13.277,25.209,14.554,23-13.277,3.951,2.281-17.814,10.285" transform="translate(-1247.062 -6133.759)" fill="#09bfff"/>
+                <path id="Контур_5956" data-name="Контур 5956" d="M1618.818,6254.426l-86.334,49.845,26.269,15.167,86.334-49.845.372.215-86.706,50.059-27.013-15.6,86.706-50.06" transform="translate(-1388.092 -6170.413)" fill="#09bfff"/>
+                <path id="Контур_5957" data-name="Контур 5957" d="M1629.661,6258.589l-82.755,47.779,19.111,11.034,82.755-47.779.372.215-83.127,47.993-19.855-11.463,83.127-47.993" transform="translate(-1395.357 -6172.51)" fill="#09bfff"/>
+                <path id="Контур_5958" data-name="Контур 5958" d="M1640.5,6262.754l-79.177,45.712,11.955,6.9,79.177-45.713.372.215-79.548,45.927-12.7-7.331,79.549-45.927" transform="translate(-1402.621 -6174.607)" fill="#09bfff"/>
+                <path id="Контур_5959" data-name="Контур 5959" d="M1651.347,6266.917l-75.6,43.646,4.8,2.77,75.6-43.646.372.215-75.97,43.86-5.541-3.2,75.97-43.86" transform="translate(-1409.885 -6176.705)" fill="#09bfff"/>
+                <path id="Контур_5960" data-name="Контур 5960" d="M1433.026,6233.8,1400,6252.872l44.825,25.88,17.729-10.236.372.215-18.1,10.451-45.569-26.309,33.4-19.283" transform="translate(-1321.357 -6160.024)" fill="#09bfff"/>
+                <path id="Контур_5961" data-name="Контур 5961" d="M1443.869,6237.967l-29.448,17,37.668,21.747,14.151-8.169.372.214-14.522,8.385-38.412-22.177,29.821-17.217" transform="translate(-1328.621 -6162.122)" fill="#09bfff"/>
+                <path id="Контур_5962" data-name="Контур 5962" d="M1454.712,6242.13l-25.87,14.936,30.511,17.615,10.572-6.1.372.214-10.944,6.318-31.254-18.044,26.242-15.151" transform="translate(-1335.886 -6164.218)" fill="#09bfff"/>
+                <path id="Контур_5963" data-name="Контур 5963" d="M1465.555,6246.294l-22.291,12.87,23.354,13.482,6.993-4.037.372.214-7.365,4.252-24.1-13.912,22.663-13.085" transform="translate(-1343.15 -6166.316)" fill="#09bfff"/>
+            </g>
+            <g id="Сгруппировать_2434" data-name="Сгруппировать 2434" transform="translate(54.452 144.369)">
+                <path id="Контур_5964" data-name="Контур 5964" d="M1361.781,6080.242l-4.493-2.594-7.382-32.279L1305.517,6071l-7.382,40.8-1.963,6.321-4.493-2.593,9.291-51.355,53.485-30.88,4.493,2.594Z" transform="translate(-1291.679 -6033.293)" fill="#051a78"/>
+                <path id="Контур_5965" data-name="Контур 5965" d="M1372.8,6079.146l-6.456,3.729-7.383-32.279-44.389,25.628-7.382,40.8-6.456,3.728,9.29-51.355,53.485-30.88Z" transform="translate(-1296.239 -6035.926)" fill="url(#linear-gradient-44)"/>
+            </g>
+            <g class="animatePosVertical">
+                <g id="Сгруппировать_2438" data-name="Сгруппировать 2438" transform="translate(311.976 119.147)">
+                <path id="Контур_5966" data-name="Контур 5966" d="M1893.838,6086.589l-73.1-42.205c-3.187-1.84-5.77-6.777-5.77-11.026v-45.831c0-4.249,2.583-6.2,5.77-4.362l73.1,42.206c3.187,1.839,5.77,6.776,5.77,11.025v45.831C1899.608,6086.476,1897.025,6088.429,1893.838,6086.589Z" transform="translate(-1812.792 -5982.472)" fill="#051a78"/>
+                <path id="Контур_5967" data-name="Контур 5967" d="M1889.456,6089.118l-73.1-42.206c-3.187-1.84-5.771-6.777-5.771-11.025v-45.831c0-4.251,2.584-6.2,5.771-4.363l73.1,42.205c3.187,1.84,5.77,6.777,5.77,11.025v45.831C1895.226,6089,1892.642,6090.958,1889.456,6089.118Z" transform="translate(-1810.584 -5983.746)" fill="#233588"/>
+                <path id="Контур_5968" data-name="Контур 5968" d="M1848.391,6037.686l-18.322-10.579a5.522,5.522,0,0,1-2.306-4.406v-10.437c0-1.7,1.032-2.479,2.306-1.744l18.322,10.578a5.524,5.524,0,0,1,2.306,4.406v10.438C1850.7,6037.64,1849.664,6038.421,1848.391,6037.686Z" transform="translate(-1819.237 -5996.461)" fill="#ffc261"/>
+                <path id="Контур_5969" data-name="Контур 5969" d="M1899.639,6129.465l-68.959-39.814v-6.6l68.959,39.813Z" transform="translate(-1820.707 -6033.136)" fill="#5b6fbc"/>
+                <g id="Сгруппировать_2436" data-name="Сгруппировать 2436" transform="translate(9.973 35.721)">
+                    <g id="Сгруппировать_2435" data-name="Сгруппировать 2435">
+                        <path id="Контур_5970" data-name="Контур 5970" d="M1834.621,6060.415a2.668,2.668,0,0,1,.306,1.2q0,.816-.472,1.015a1.655,1.655,0,0,1-1.37-.319l-2.4-1.389v-6.471l2.357,1.36a3.811,3.811,0,0,1,1.306,1.186,2.638,2.638,0,0,1,.456,1.473,1.04,1.04,0,0,1-.274.832.728.728,0,0,1-.718.089A3.071,3.071,0,0,1,1834.621,6060.415Zm-2.822-2.6,1.008.582a.785.785,0,0,0,.639.153q.218-.089.218-.492a1.382,1.382,0,0,0-.214-.747,1.833,1.833,0,0,0-.658-.6l-.993-.573Zm1.746,3.487q.238-.086.238-.518a1.454,1.454,0,0,0-.242-.8,1.975,1.975,0,0,0-.687-.63l-1.056-.609v1.779l1.064.613A.871.871,0,0,0,1833.546,6061.3Z" transform="translate(-1830.68 -6054.45)" fill="#f7f7f7"/>
+                        <path id="Контур_5971" data-name="Контур 5971" d="M1843.815,6068.487l-2.247-1.3-.4,1.072-1.183-.683,2.064-5.207,1.278.738,2.056,7.585-1.183-.683Zm-.3-1.154-.826-3.209-.825,2.255Z" transform="translate(-1835.369 -6058.441)" fill="#f7f7f7"/>
+                        <path id="Контур_5972" data-name="Контур 5972" d="M1856.829,6076.018l-1.12-.646-2.508-5.848v4.4l-1.12-.646v-6.471l1.12.646,2.508,5.884V6068.9l1.12.647Z" transform="translate(-1841.46 -6060.674)" fill="#f7f7f7"/>
+                        <path id="Контур_5973" data-name="Контур 5973" d="M1865.869,6077.948l2.374,4.661-1.358-.784-2.072-4.157v2.961l-1.12-.647v-6.47l1.12.646v2.906l2.08-1.706,1.349.779Z" transform="translate(-1847.31 -6064.053)" fill="#f7f7f7"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2437" data-name="Сгруппировать 2437" transform="translate(11.831 52.612)">
+                    <path id="Контур_5974" data-name="Контур 5974" d="M1834.423,6089.135v-.651l1.085.626v3.482l-.632-.366v-2.83Z" transform="translate(-1834.423 -6088.484)" fill="#fff"/>
+                    <path id="Контур_5975" data-name="Контур 5975" d="M1837.5,6093.845v-.577l1.444-1.41.645.372v2.22l.393.226v.6l-.393-.227v.7l-.606-.351v-.7Zm1.529-1.124-.914.877.914.528Z" transform="translate(-1835.97 -6090.183)" fill="#fff"/>
+                    <path id="Контур_5976" data-name="Контур 5976" d="M1845.492,6095.36l-1.431-.826v.878a.361.361,0,0,1,.271-.058.982.982,0,0,1,.382.14,1.709,1.709,0,0,1,.519.455,1.95,1.95,0,0,1,.308.591,2.088,2.088,0,0,1,.1.633.824.824,0,0,1-.271.735c-.181.12-.439.082-.775-.111a2.269,2.269,0,0,1-.572-.468,2.187,2.187,0,0,1-.38-.6,1.844,1.844,0,0,1-.149-.656l.585.337a1.145,1.145,0,0,0,.158.444.9.9,0,0,0,.329.32q.247.144.369.039a.507.507,0,0,0,.122-.4,1,1,0,0,0-.128-.5.962.962,0,0,0-.363-.363.481.481,0,0,0-.29-.082.225.225,0,0,0-.175.128l-.585-.337v-2.057l1.977,1.143Z" transform="translate(-1838.992 -6091.063)" fill="#fff"/>
+                    <path id="Контур_5977" data-name="Контур 5977" d="M1848.32,6097.159v-.651l1.085.627v3.481l-.632-.365v-2.83Z" transform="translate(-1841.423 -6092.526)" fill="#fff"/>
+                    <path id="Контур_5978" data-name="Контур 5978" d="M1853.778,6100.144l-1.43-.826v.877a.364.364,0,0,1,.271-.057.979.979,0,0,1,.382.139,1.709,1.709,0,0,1,.519.455,1.989,1.989,0,0,1,.308.591,2.1,2.1,0,0,1,.1.633.825.825,0,0,1-.271.735q-.271.179-.775-.112a2.251,2.251,0,0,1-.572-.465,2.193,2.193,0,0,1-.38-.6,1.862,1.862,0,0,1-.15-.656l.585.338a1.141,1.141,0,0,0,.158.444.921.921,0,0,0,.329.32c.165.1.288.108.37.039a.511.511,0,0,0,.121-.4,1,1,0,0,0-.128-.5.96.96,0,0,0-.363-.363.476.476,0,0,0-.29-.081.22.22,0,0,0-.175.128l-.585-.337v-2.057l1.977,1.141Z" transform="translate(-1843.165 -6093.475)" fill="#fff"/>
+                    <path id="Контур_5979" data-name="Контур 5979" d="M1858.1,6102.942q-.3-.173-.436.052a1.814,1.814,0,0,0-.12.881.31.31,0,0,1,.267-.224.756.756,0,0,1,.464.127,1.81,1.81,0,0,1,.685.7,2.03,2.03,0,0,1,.25,1,1.048,1.048,0,0,1-.119.542.425.425,0,0,1-.357.213,1.06,1.06,0,0,1-.574-.178,2.018,2.018,0,0,1-.906-.994,3.83,3.83,0,0,1-.248-1.442,2.039,2.039,0,0,1,.267-1.256q.267-.3.865.041a1.814,1.814,0,0,1,.7.706,2.224,2.224,0,0,1,.278.929l-.564-.326A.966.966,0,0,0,1858.1,6102.942Zm-.365,2.095a1.044,1.044,0,0,0,.408.416.367.367,0,0,0,.367.054c.091-.053.136-.172.136-.36a1.036,1.036,0,0,0-.138-.534,1.009,1.009,0,0,0-.374-.374.454.454,0,0,0-.38-.072q-.157.056-.158.333A1.127,1.127,0,0,0,1857.739,6105.037Z" transform="translate(-1845.801 -6095.405)" fill="#fff"/>
+                    <path id="Контур_5980" data-name="Контур 5980" d="M1862.217,6108.118v-.577l1.444-1.411.644.373v2.219l.393.227v.6l-.393-.227v.7l-.606-.351v-.7Zm1.529-1.124-.914.878.914.528Z" transform="translate(-1848.423 -6097.373)" fill="#fff"/>
+                    <path id="Контур_5981" data-name="Контур 5981" d="M1868.125,6108.568a.433.433,0,0,1,.363-.14,1.284,1.284,0,0,1,.582.2,2.326,2.326,0,0,1,.583.469,2.043,2.043,0,0,1,.363.561,1.373,1.373,0,0,1,.122.538.609.609,0,0,1-.12.417.372.372,0,0,1-.359.091,2.09,2.09,0,0,1,.412.581,1.466,1.466,0,0,1,.143.626.735.735,0,0,1-.149.509.47.47,0,0,1-.408.142,1.443,1.443,0,0,1-.588-.211,2.494,2.494,0,0,1-.587-.468,2.161,2.161,0,0,1-.405-.611,1.67,1.67,0,0,1-.147-.68.629.629,0,0,1,.143-.461.462.462,0,0,1,.412-.105,1.678,1.678,0,0,1-.361-.509,1.347,1.347,0,0,1-.121-.554A.608.608,0,0,1,1868.125,6108.568Zm.541,2.828a1.146,1.146,0,0,0,.405.387.468.468,0,0,0,.408.082c.1-.043.152-.151.152-.326a.866.866,0,0,0-.156-.5,1.213,1.213,0,0,0-.4-.375.513.513,0,0,0-.4-.09c-.1.034-.156.14-.156.317A.93.93,0,0,0,1868.666,6111.4Zm.06-1.534a.991.991,0,0,0,.346.328.411.411,0,0,0,.351.075q.128-.055.128-.292a.816.816,0,0,0-.13-.442,1,1,0,0,0-.349-.332.4.4,0,0,0-.343-.067c-.087.037-.13.135-.13.292A.807.807,0,0,0,1868.725,6109.862Z" transform="translate(-1851.302 -6098.53)" fill="#fff"/>
+                    <path id="Контур_5982" data-name="Контур 5982" d="M1874.574,6112.451c-.2-.115-.344-.1-.436.052a1.8,1.8,0,0,0-.12.88.31.31,0,0,1,.267-.224.767.767,0,0,1,.464.128,1.818,1.818,0,0,1,.685.7,2.036,2.036,0,0,1,.25,1.005,1.039,1.039,0,0,1-.12.542.426.426,0,0,1-.356.213,1.068,1.068,0,0,1-.574-.178,2.017,2.017,0,0,1-.906-.994,3.832,3.832,0,0,1-.248-1.443,2.034,2.034,0,0,1,.267-1.255q.268-.3.865.04a1.83,1.83,0,0,1,.7.705,2.231,2.231,0,0,1,.277.93l-.564-.325A.969.969,0,0,0,1874.574,6112.451Zm-.365,2.1a1.041,1.041,0,0,0,.408.415.364.364,0,0,0,.367.053c.091-.051.136-.171.136-.359a1.039,1.039,0,0,0-.138-.533,1.023,1.023,0,0,0-.374-.374.46.46,0,0,0-.38-.071c-.1.038-.158.149-.158.333A1.13,1.13,0,0,0,1874.209,6114.546Z" transform="translate(-1854.097 -6100.195)" fill="#fff"/>
+                    <path id="Контур_5983" data-name="Контур 5983" d="M1878.455,6114.557v-.651l1.084.626v3.481l-.632-.364v-2.831Z" transform="translate(-1856.603 -6101.29)" fill="#fff"/>
+                    <path id="Контур_5984" data-name="Контур 5984" d="M1882.958,6117.912a.915.915,0,0,0-.1-.42.74.74,0,0,0-.3-.307q-.424-.244-.448.406l-.585-.337c.017-.4.125-.651.325-.748a.805.805,0,0,1,.756.119,1.935,1.935,0,0,1,.715.691,1.717,1.717,0,0,1,.25.886,1.05,1.05,0,0,1-.186.625,1.275,1.275,0,0,1-.473.4,1.861,1.861,0,0,1-.6.182l1.32.763v.566l-2.122-1.226V6119Q1882.957,6118.677,1882.958,6117.912Z" transform="translate(-1858.142 -6102.574)" fill="#fff"/>
+                    <path id="Контур_5985" data-name="Контур 5985" d="M1888.783,6120.354l-1.43-.825v.877a.364.364,0,0,1,.271-.057.972.972,0,0,1,.382.139,1.719,1.719,0,0,1,.519.454,1.979,1.979,0,0,1,.308.593,2.093,2.093,0,0,1,.1.632.826.826,0,0,1-.272.736q-.271.179-.775-.112a2.248,2.248,0,0,1-.572-.466,2.178,2.178,0,0,1-.38-.6,1.837,1.837,0,0,1-.15-.655l.585.338a1.143,1.143,0,0,0,.158.443.92.92,0,0,0,.328.321c.165.095.289.108.37.038a.511.511,0,0,0,.121-.4,1,1,0,0,0-.128-.5.953.953,0,0,0-.363-.363.462.462,0,0,0-.29-.081.22.22,0,0,0-.175.128l-.585-.338V6118.6l1.977,1.141Z" transform="translate(-1860.798 -6103.655)" fill="#fff"/>
+                    <path id="Контур_5986" data-name="Контур 5986" d="M1891.844,6125.223v-.577l1.444-1.411.645.372v2.22l.393.227v.6l-.393-.227v.7l-.606-.35v-.7Zm1.529-1.124-.914.877.914.527Z" transform="translate(-1863.347 -6105.989)" fill="#fff"/>
+                    <path id="Контур_5987" data-name="Контур 5987" d="M1897.222,6125.392v-.651l1.085.627v3.48l-.632-.365v-2.83Z" transform="translate(-1866.056 -6106.747)" fill="#fff"/>
+                    <path id="Контур_5988" data-name="Контур 5988" d="M1901.439,6130.442q.3.172.431-.054a1.871,1.871,0,0,0,.116-.883.308.308,0,0,1-.267.223.756.756,0,0,1-.464-.127,1.808,1.808,0,0,1-.685-.7,2.025,2.025,0,0,1-.25-1,1.045,1.045,0,0,1,.12-.54.427.427,0,0,1,.356-.216,1.059,1.059,0,0,1,.575.179,2.026,2.026,0,0,1,.905.984,3.739,3.739,0,0,1,.248,1.422,2.285,2.285,0,0,1-.25,1.272q-.25.339-.835,0a1.94,1.94,0,0,1-.536-.453,2.152,2.152,0,0,1-.489-1.21l.564.327A.973.973,0,0,0,1901.439,6130.442Zm.357-2.1a1.041,1.041,0,0,0-.408-.415.366.366,0,0,0-.367-.054c-.091.053-.136.172-.136.359a1.055,1.055,0,0,0,.138.537,1.012,1.012,0,0,0,.374.376.445.445,0,0,0,.378.068c.107-.039.16-.149.16-.334A1.133,1.133,0,0,0,1901.8,6128.343Z" transform="translate(-1867.616 -6107.956)" fill="#fff"/>
+                    <path id="Контур_5989" data-name="Контур 5989" d="M1906.756,6131.033q-.3-.173-.436.052a1.806,1.806,0,0,0-.119.879.31.31,0,0,1,.267-.223.76.76,0,0,1,.464.127,1.812,1.812,0,0,1,.685.7,2.024,2.024,0,0,1,.25,1,1.052,1.052,0,0,1-.12.543.429.429,0,0,1-.357.212,1.059,1.059,0,0,1-.574-.179,2.018,2.018,0,0,1-.906-.993,3.851,3.851,0,0,1-.248-1.442,2.033,2.033,0,0,1,.267-1.256q.267-.3.865.041a1.827,1.827,0,0,1,.7.706,2.223,2.223,0,0,1,.277.93l-.564-.327A.963.963,0,0,0,1906.756,6131.033Zm-.365,2.095a1.049,1.049,0,0,0,.408.416.368.368,0,0,0,.367.054q.137-.079.137-.36a1.04,1.04,0,0,0-.139-.534,1.019,1.019,0,0,0-.374-.374.454.454,0,0,0-.38-.072q-.158.056-.158.333A1.132,1.132,0,0,0,1906.391,6133.127Z" transform="translate(-1870.307 -6109.555)" fill="#fff"/>
+                </g>
+            </g>
+            </g>
+            <g id="Сгруппировать_2442" data-name="Сгруппировать 2442" transform="translate(241.868 101.371)">
+                <path id="Контур_5990" data-name="Контур 5990" d="M1726.009,6017.553l-49.778-28.741c-2.17-1.252-3.929-4.614-3.929-7.507V5950.1c0-2.894,1.759-4.224,3.929-2.971l49.778,28.739c2.17,1.253,3.93,4.615,3.93,7.508v31.209C1729.939,6017.476,1728.179,6018.806,1726.009,6017.553Z" transform="translate(-1670.82 -5946.654)" fill="#051a78"/>
+                <path id="Контур_5991" data-name="Контур 5991" d="M1723.025,6019.276l-49.779-28.739c-2.17-1.254-3.93-4.615-3.93-7.508v-31.21c0-2.893,1.759-4.223,3.93-2.969l49.779,28.739c2.17,1.253,3.93,4.614,3.93,7.508v31.208C1726.955,6019.2,1725.2,6020.53,1723.025,6019.276Z" transform="translate(-1669.317 -5947.522)" fill="#27c7ff"/>
+                <path id="Контур_5992" data-name="Контур 5992" d="M1695.062,5984.253l-12.477-7.2a3.764,3.764,0,0,1-1.57-3v-7.108c0-1.156.7-1.687,1.57-1.187l12.477,7.2a3.761,3.761,0,0,1,1.57,3v7.107C1696.632,5984.222,1695.929,5984.753,1695.062,5984.253Z" transform="translate(-1675.209 -5956.18)" fill="#ffc261"/>
+                <path id="Контур_5993" data-name="Контур 5993" d="M1729.959,6046.75,1683,6019.639v-4.495l46.958,27.111Z" transform="translate(-1676.21 -5981.154)" fill="#5b6fbc"/>
+                <g id="Сгруппировать_2440" data-name="Сгруппировать 2440" transform="translate(6.791 24.324)">
+                    <g id="Сгруппировать_2439" data-name="Сгруппировать 2439">
+                        <path id="Контур_5994" data-name="Контур 5994" d="M1685.685,5999.73a1.816,1.816,0,0,1,.208.816q0,.556-.321.691a1.126,1.126,0,0,1-.932-.216l-1.638-.946v-4.407l1.606.927a2.591,2.591,0,0,1,.889.807,1.8,1.8,0,0,1,.311,1,.708.708,0,0,1-.187.567.5.5,0,0,1-.489.06A2.092,2.092,0,0,1,1685.685,5999.73Zm-1.922-1.774.687.4a.537.537,0,0,0,.435.1c.1-.04.149-.152.149-.336a.942.942,0,0,0-.146-.508,1.256,1.256,0,0,0-.448-.409l-.676-.39Zm1.189,2.375c.108-.04.162-.157.162-.352a.992.992,0,0,0-.165-.548,1.348,1.348,0,0,0-.468-.429l-.719-.415v1.211l.725.418A.6.6,0,0,0,1684.952,6000.331Z" transform="translate(-1683.001 -5995.668)" fill="#f7f7f7"/>
+                        <path id="Контур_5995" data-name="Контур 5995" d="M1691.946,6005.228l-1.53-.884-.271.731-.806-.465,1.406-3.545.87.5,1.4,5.166-.805-.465Zm-.206-.787-.562-2.185-.562,1.536Z" transform="translate(-1686.194 -5998.387)" fill="#f7f7f7"/>
+                        <path id="Контур_5996" data-name="Контур 5996" d="M1700.807,6010.355l-.762-.44-1.708-3.983v3l-.762-.44v-4.407l.762.441,1.708,4.007v-3.021l.762.441Z" transform="translate(-1690.342 -5999.905)" fill="#f7f7f7"/>
+                        <path id="Контур_5997" data-name="Контур 5997" d="M1706.964,6011.669l1.616,3.174-.925-.535-1.411-2.83v2.016l-.762-.44v-4.406l.762.44v1.978l1.416-1.16.919.53Z" transform="translate(-1694.326 -6002.207)" fill="#f7f7f7"/>
+                    </g>
+                </g>
+                <g id="Сгруппировать_2441" data-name="Сгруппировать 2441" transform="translate(8.056 35.826)">
+                    <path id="Контур_5998" data-name="Контур 5998" d="M1685.55,6019.288v-.443l.739.426v2.371l-.431-.248v-1.927Z" transform="translate(-1685.55 -6018.844)" fill="#fff"/>
+                    <path id="Контур_5999" data-name="Контур 5999" d="M1687.642,6022.5v-.393l.983-.961.439.253v1.511l.267.154v.41l-.267-.154v.476l-.413-.237v-.478Zm1.041-.765-.622.6.622.359Z" transform="translate(-1686.604 -6020.001)" fill="#fff"/>
+                    <path id="Контур_6000" data-name="Контур 6000" d="M1693.087,6023.525l-.974-.562v.6a.242.242,0,0,1,.185-.04.69.69,0,0,1,.26.094,1.187,1.187,0,0,1,.353.31,1.35,1.35,0,0,1,.209.4,1.407,1.407,0,0,1,.068.43.564.564,0,0,1-.184.5c-.123.081-.3.056-.528-.077a1.537,1.537,0,0,1-.649-.725,1.274,1.274,0,0,1-.1-.447l.4.23a.777.777,0,0,0,.108.3.622.622,0,0,0,.224.218c.113.065.2.074.252.027a.35.35,0,0,0,.083-.27.684.684,0,0,0-.087-.343.652.652,0,0,0-.247-.247.318.318,0,0,0-.2-.055.152.152,0,0,0-.12.087l-.4-.23v-1.4l1.346.778Z" transform="translate(-1688.661 -6020.601)" fill="#fff"/>
+                    <path id="Контур_6001" data-name="Контур 6001" d="M1695.014,6024.752v-.443l.738.426v2.371l-.43-.248v-1.928Z" transform="translate(-1690.317 -6021.597)" fill="#fff"/>
+                    <path id="Контур_6002" data-name="Контур 6002" d="M1698.73,6026.785l-.974-.563v.6a.255.255,0,0,1,.185-.039.669.669,0,0,1,.26.1,1.157,1.157,0,0,1,.353.309,1.333,1.333,0,0,1,.209.4,1.42,1.42,0,0,1,.069.43.564.564,0,0,1-.185.5c-.123.081-.3.056-.527-.077a1.555,1.555,0,0,1-.39-.316,1.5,1.5,0,0,1-.259-.409,1.258,1.258,0,0,1-.1-.445l.4.229a.781.781,0,0,0,.108.3.614.614,0,0,0,.224.217c.112.066.2.074.252.026a.343.343,0,0,0,.083-.27.683.683,0,0,0-.087-.342.652.652,0,0,0-.247-.247.323.323,0,0,0-.2-.056.154.154,0,0,0-.12.087l-.4-.229v-1.4l1.346.777Z" transform="translate(-1691.504 -6022.242)" fill="#fff"/>
+                    <path id="Контур_6003" data-name="Контур 6003" d="M1701.676,6028.69c-.136-.079-.235-.067-.3.034a1.237,1.237,0,0,0-.081.6.208.208,0,0,1,.182-.151.506.506,0,0,1,.316.085,1.238,1.238,0,0,1,.467.476,1.383,1.383,0,0,1,.17.685.706.706,0,0,1-.081.369.291.291,0,0,1-.243.146.721.721,0,0,1-.391-.122,1.367,1.367,0,0,1-.616-.677,2.6,2.6,0,0,1-.169-.982,1.386,1.386,0,0,1,.182-.856c.121-.137.317-.128.588.029a1.24,1.24,0,0,1,.478.48,1.531,1.531,0,0,1,.189.632l-.384-.22A.657.657,0,0,0,1701.676,6028.69Zm-.249,1.426a.709.709,0,0,0,.277.283c.1.06.188.073.25.037s.093-.118.093-.245a.707.707,0,0,0-.095-.363.689.689,0,0,0-.254-.254.309.309,0,0,0-.259-.048c-.071.025-.108.1-.108.227A.767.767,0,0,0,1701.428,6030.116Z" transform="translate(-1693.298 -6023.557)" fill="#fff"/>
+                    <path id="Контур_6004" data-name="Контур 6004" d="M1704.477,6032.214v-.393l.983-.96.439.253v1.512l.267.155v.409l-.267-.154v.476l-.413-.237v-.478Zm1.041-.765-.622.6.622.36Z" transform="translate(-1695.084 -6024.897)" fill="#fff"/>
+                    <path id="Контур_6005" data-name="Контур 6005" d="M1708.5,6032.521a.294.294,0,0,1,.247-.1.883.883,0,0,1,.4.138,1.571,1.571,0,0,1,.4.32,1.413,1.413,0,0,1,.247.38.954.954,0,0,1,.083.368.41.41,0,0,1-.081.283.253.253,0,0,1-.244.063,1.418,1.418,0,0,1,.281.4,1,1,0,0,1,.1.427.5.5,0,0,1-.1.346.318.318,0,0,1-.277.1.982.982,0,0,1-.4-.143,1.717,1.717,0,0,1-.4-.318,1.481,1.481,0,0,1-.276-.416,1.14,1.14,0,0,1-.1-.463.427.427,0,0,1,.1-.314.316.316,0,0,1,.28-.072,1.144,1.144,0,0,1-.246-.347.921.921,0,0,1-.083-.377A.417.417,0,0,1,1708.5,6032.521Zm.368,1.925a.772.772,0,0,0,.276.263.321.321,0,0,0,.278.057c.068-.03.1-.1.1-.223a.591.591,0,0,0-.106-.338.827.827,0,0,0-.275-.255.344.344,0,0,0-.272-.061c-.07.022-.106.094-.106.215A.637.637,0,0,0,1708.868,6034.446Zm.041-1.044a.68.68,0,0,0,.236.223.277.277,0,0,0,.239.05c.058-.024.087-.09.087-.2a.549.549,0,0,0-.088-.3.671.671,0,0,0-.237-.227.264.264,0,0,0-.234-.045c-.059.025-.088.091-.088.2A.548.548,0,0,0,1708.909,6033.4Z" transform="translate(-1697.044 -6025.685)" fill="#fff"/>
+                    <path id="Контур_6006" data-name="Контур 6006" d="M1712.891,6035.166c-.135-.079-.235-.067-.3.035a1.234,1.234,0,0,0-.082.6.211.211,0,0,1,.182-.152.517.517,0,0,1,.315.086,1.237,1.237,0,0,1,.467.478,1.377,1.377,0,0,1,.17.684.711.711,0,0,1-.082.369.291.291,0,0,1-.243.146.72.72,0,0,1-.391-.122,1.372,1.372,0,0,1-.616-.677,2.606,2.606,0,0,1-.169-.982,1.387,1.387,0,0,1,.182-.855q.181-.207.589.029a1.231,1.231,0,0,1,.477.48,1.519,1.519,0,0,1,.189.632l-.384-.221A.658.658,0,0,0,1712.891,6035.166Zm-.249,1.426a.707.707,0,0,0,.278.282.252.252,0,0,0,.25.038q.093-.054.093-.246a.709.709,0,0,0-.094-.363.7.7,0,0,0-.255-.255.311.311,0,0,0-.259-.048q-.107.037-.107.227A.77.77,0,0,0,1712.643,6036.592Z" transform="translate(-1698.947 -6026.819)" fill="#fff"/>
+                    <path id="Контур_6007" data-name="Контур 6007" d="M1715.534,6036.6v-.443l.738.427v2.371l-.43-.248v-1.929Z" transform="translate(-1700.654 -6027.563)" fill="#fff"/>
+                    <path id="Контур_6008" data-name="Контур 6008" d="M1718.6,6038.884a.626.626,0,0,0-.066-.286.5.5,0,0,0-.2-.209q-.288-.167-.306.277l-.4-.23c.011-.273.085-.442.221-.509a.547.547,0,0,1,.515.081,1.308,1.308,0,0,1,.487.471,1.165,1.165,0,0,1,.17.6.714.714,0,0,1-.127.426.859.859,0,0,1-.321.274,1.231,1.231,0,0,1-.41.125l.9.519v.386l-1.445-.834v-.353Q1718.6,6039.4,1718.6,6038.884Z" transform="translate(-1701.701 -6028.438)" fill="#fff"/>
+                    <path id="Контур_6009" data-name="Контур 6009" d="M1722.567,6040.546l-.974-.562v.6a.247.247,0,0,1,.185-.04.68.68,0,0,1,.26.095,1.168,1.168,0,0,1,.353.31,1.341,1.341,0,0,1,.209.4,1.425,1.425,0,0,1,.068.43.562.562,0,0,1-.185.5q-.184.122-.527-.076a1.517,1.517,0,0,1-.39-.317,1.485,1.485,0,0,1-.259-.408,1.263,1.263,0,0,1-.1-.447l.4.23a.768.768,0,0,0,.108.3.617.617,0,0,0,.224.219c.112.065.2.074.252.026a.347.347,0,0,0,.083-.269.686.686,0,0,0-.087-.343.649.649,0,0,0-.247-.247.323.323,0,0,0-.2-.055.153.153,0,0,0-.119.087l-.4-.229v-1.4l1.346.778Z" transform="translate(-1703.511 -6029.174)" fill="#fff"/>
+                    <path id="Контур_6010" data-name="Контур 6010" d="M1724.652,6043.862v-.394l.983-.96.439.254v1.51l.267.155v.41l-.267-.154v.477l-.413-.238v-.478Zm1.041-.766-.622.6.622.359Z" transform="translate(-1705.246 -6030.765)" fill="#fff"/>
+                    <path id="Контур_6011" data-name="Контур 6011" d="M1728.314,6043.977v-.443l.739.427v2.37l-.43-.249v-1.927Z" transform="translate(-1707.091 -6031.281)" fill="#fff"/>
+                    <path id="Контур_6012" data-name="Контур 6012" d="M1731.185,6047.416c.136.079.234.065.294-.038a1.27,1.27,0,0,0,.078-.6.211.211,0,0,1-.182.153.523.523,0,0,1-.316-.087,1.225,1.225,0,0,1-.467-.476,1.377,1.377,0,0,1-.17-.684.718.718,0,0,1,.081-.368.292.292,0,0,1,.243-.147.726.726,0,0,1,.391.123,1.379,1.379,0,0,1,.617.67,2.551,2.551,0,0,1,.169.968,1.562,1.562,0,0,1-.17.866q-.171.23-.569,0a1.326,1.326,0,0,1-.365-.308,1.469,1.469,0,0,1-.333-.824l.384.222A.664.664,0,0,0,1731.185,6047.416Zm.243-1.43a.711.711,0,0,0-.278-.283.249.249,0,0,0-.25-.037q-.093.053-.093.246a.718.718,0,0,0,.094.365.69.69,0,0,0,.255.256.306.306,0,0,0,.257.046c.073-.026.109-.1.109-.228A.773.773,0,0,0,1731.428,6045.986Z" transform="translate(-1708.153 -6032.104)" fill="#fff"/>
+                    <path id="Контур_6013" data-name="Контур 6013" d="M1734.806,6047.817c-.136-.079-.235-.066-.3.035a1.228,1.228,0,0,0-.081.6.21.21,0,0,1,.182-.152.514.514,0,0,1,.316.086,1.231,1.231,0,0,1,.467.476,1.385,1.385,0,0,1,.17.685.709.709,0,0,1-.082.369.291.291,0,0,1-.243.146.714.714,0,0,1-.391-.123,1.368,1.368,0,0,1-.616-.676,2.616,2.616,0,0,1-.169-.982,1.388,1.388,0,0,1,.182-.856c.121-.137.318-.128.589.029a1.235,1.235,0,0,1,.477.479,1.532,1.532,0,0,1,.189.633l-.384-.222A.658.658,0,0,0,1734.806,6047.817Zm-.249,1.426a.71.71,0,0,0,.278.283.25.25,0,0,0,.25.037c.062-.036.093-.118.093-.246a.707.707,0,0,0-.095-.363.68.68,0,0,0-.254-.254.31.31,0,0,0-.259-.049c-.071.025-.108.1-.108.227A.767.767,0,0,0,1734.558,6049.244Z" transform="translate(-1709.986 -6033.192)" fill="#fff"/>
+                </g>
+            </g>
+            <g id="Сгруппировать_2443" data-name="Сгруппировать 2443" transform="translate(262.429 183.815)">
+                <path id="Контур_6014" data-name="Контур 6014" d="M1767,6114.938s-7.059,17.411-13.753,16.047l-5.693-1.757s-2.914,11.088-5.563,9.937c-2.282-.462-2.532,3.3-2.532,3.3l5.183,4.125s4.467-8.9,4.82-11.259c2.509,1.043,9.452-1.356,13.258-7.937s5.379-12.724,5.273-13.237c-1.565-1.411-1.7-1.381-1.7-1.381l-.081,1.416Z" transform="translate(-1725.212 -6112.777)" fill="#ffa800"/>
+                <path id="Контур_6015" data-name="Контур 6015" d="M1753.6,6233.437s-.9-23.744-6.531-32.19l-4.951-6.714s.672-12.871-1.721-15.732a8.543,8.543,0,0,1-1.11-6.2l5.183,4.125s1.134,13.36.781,15.716c2.254,2.747,7.077,14.509,8.312,25.1s.83,17.665.609,17.919a7.745,7.745,0,0,1-1.708-1.332l.315-1.229Z" transform="translate(-1725.04 -6142.911)" fill="#ffa800"/>
+                <path id="Контур_6016" data-name="Контур 6016" d="M1710.748,6165.882l25.226,20.076.132-.885L1710.881,6165Z" transform="translate(-1710.748 -6139.081)" fill="#ffa800"/>
+                <path id="Контур_6017" data-name="Контур 6017" d="M1724.082,6159.034,1763,6189.4l.132-.885-38.918-30.365Z" transform="translate(-1717.465 -6135.631)" fill="#ffa800"/>
+                <path id="Контур_6018" data-name="Контур 6018" d="M1720.175,6155.626l3.737,1.656-1.566.179.448,1.9Z" transform="translate(-1715.496 -6134.361)" fill="#ffa800"/>
+                <path id="Контур_6019" data-name="Контур 6019" d="M1738.024,6151.061l7.564,6.02.132-.885-7.564-6.021Z" transform="translate(-1724.488 -6131.615)" fill="#ffa800"/>
+                <path id="Контур_6020" data-name="Контур 6020" d="M1737.671,6153.934l1.431-9.559-1.93.676-1.135,7.583Z" transform="translate(-1723.487 -6128.693)" fill="#ffa800"/>
+                <path id="Контур_6021" data-name="Контур 6021" d="M1781.558,6118.758l5.5,52.624-19.109,34.7.346.46,19.179-34.832-5.524-52.825-.4-.13Z" transform="translate(-1739.563 -6115.79)" fill="#ffa800"/>
+            </g>
+            <g id="Сгруппировать_2444" data-name="Сгруппировать 2444" transform="translate(47.88 75.107)">
+                <ellipse id="Эллипс_1015" data-name="Эллипс 1015" cx="50.76" cy="29.306" rx="50.76" ry="29.306" transform="translate(0 87.918) rotate(-60)" fill="#051a78"/>
+                <ellipse id="Эллипс_1016" data-name="Эллипс 1016" cx="50.76" cy="29.306" rx="50.76" ry="29.306" transform="translate(4.469 90.343) rotate(-60)" fill="#fff1de"/>
+                <path id="Контур_6022" data-name="Контур 6022" d="M1359.214,6012.024c-8.028,4.636-15.576,5.384-21.253,2.105s-8.8-10.187-8.8-19.458,3.126-19.791,8.8-29.623,13.224-17.8,21.253-22.436,15.576-5.382,21.253-2.105,8.8,10.188,8.8,19.458-3.126,19.791-8.8,29.623S1367.243,6007.389,1359.214,6012.024Z" transform="translate(-1303.985 -5916.282)" fill="#11a7f6"/>
+                <path id="Контур_6023" data-name="Контур 6023" d="M1365.244,6012.953c-6.442,3.719-12.5,4.319-17.052,1.689s-7.063-8.173-7.063-15.612,2.508-15.879,7.063-23.768,10.611-14.282,17.052-18,12.5-4.319,17.052-1.689,7.063,8.174,7.063,15.612-2.509,15.878-7.063,23.768S1371.686,6009.234,1365.244,6012.953Z" transform="translate(-1310.016 -5924.07)" fill="#d6e7f7"/>
+                <path id="Контур_6024" data-name="Контур 6024" d="M1371.854,6013.971c-4.7,2.714-9.123,3.152-12.448,1.232s-5.156-5.967-5.156-11.4,1.831-11.591,5.156-17.35,7.745-10.425,12.448-13.14,9.123-3.152,12.447-1.232,5.156,5.967,5.156,11.4-1.831,11.591-5.156,17.35S1376.555,6011.256,1371.854,6013.971Z" transform="translate(-1316.625 -5932.607)" fill="#11a7f6"/>
+                <path id="Контур_6025" data-name="Контур 6025" d="M1378.7,6015.024c-2.9,1.675-5.63,1.946-7.681.761s-3.182-3.682-3.182-7.032a24.01,24.01,0,0,1,10.863-18.815c2.9-1.676,5.629-1.946,7.681-.761s3.182,3.682,3.182,7.032a24.008,24.008,0,0,1-10.863,18.815Z" transform="translate(-1323.466 -5941.444)" fill="#ffcb29"/>
+            </g>
+            <path id="Контур_6026" data-name="Контур 6026" d="M1418.754,6038.229s-3.793-2.371-3.936-2.427a6.517,6.517,0,0,0-1.32.375l-23.906-19.025-.133.885,23.554,18.746c-.053.421-.126.993-.132,1.056-.011.1,3.882,3.323,3.882,3.323l-.66-2.551Z" transform="translate(-1286.481 -5880.793)" fill="#051a78"/>
+            <path id="Контур_6027" data-name="Контур 6027" d="M1410.564,6054.625s-3.793-2.372-3.937-2.428a6.577,6.577,0,0,0-1.32.375l-23.906-19.025-.132.885,23.554,18.746c-.054.421-.125.993-.133,1.056-.011.1,3.882,3.323,3.882,3.323l-.66-2.551Z" transform="translate(-1282.355 -5889.053)" fill="#051a78"/>
+            <path id="Контур_6028" data-name="Контур 6028" d="M1472.865,6008.034s-2.886-1.805-2.995-1.847a4.945,4.945,0,0,0-1,.285L1450.675,5992l-.1.674,17.923,14.263c-.041.321-.1.756-.1.8-.009.077,2.954,2.528,2.954,2.528l-.5-1.94Z" transform="translate(-1341.677 -5863.427)" fill="#051a78"/>
+            <path id="Контур_6029" data-name="Контур 6029" d="M1291.46,6206.99s-3.793-2.373-3.937-2.428a6.549,6.549,0,0,0-1.32.375l-23.906-19.025-.133.885,23.554,18.745c-.054.422-.126.994-.133,1.057-.011.1,3.882,3.323,3.882,3.323l-.66-2.551Z" transform="translate(-1222.36 -5965.802)" fill="#051a78"/>
+            <path id="Контур_6030" data-name="Контур 6030" d="M1380.419,6157.7s-4.03,1.94-4.154,2.033a6.541,6.541,0,0,0-.388,1.317l-28.847,10.062.678.584,28.423-9.915c.328.271.773.637.823.677.079.063,4.882-1.509,4.882-1.509l-2.51-.8Z" transform="translate(-1265.108 -5951.591)" fill="#051a78"/>
+            <path id="Контур_6031" data-name="Контур 6031" d="M1480.061,6081.925s-4.207,1.523-4.339,1.6a6.571,6.571,0,0,0-.518,1.271l-29.72,7.083.615.65,29.282-6.979.749.755c.073.071,5.01-1.006,5.01-1.006l-2.415-1.054Z" transform="translate(-1314.701 -5913.421)" fill="#051a78"/>
+            <path id="Контур_6032" data-name="Контур 6032" d="M1346.5,6137.439s-3.951-.433-4.088-.422a5.84,5.84,0,0,0-.912.81l-26.479-5.989.236.76,26.089,5.9c.12.357.283.843.3.9.03.084,4.391,1.158,4.391,1.158l-1.514-1.786Z" transform="translate(-1237.717 -5939.502)" fill="#051a78"/>
+            <g id="Сгруппировать_2447" data-name="Сгруппировать 2447" transform="translate(257.646 213.138)">
+                <g id="Сгруппировать_2445" data-name="Сгруппировать 2445" transform="translate(0 86.859)">
+                    <ellipse id="Эллипс_1017" data-name="Эллипс 1017" cx="40.521" cy="23.395" rx="40.521" ry="23.395" fill="url(#linear-gradient-45)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                    <ellipse id="Эллипс_1018" data-name="Эллипс 1018" cx="23.057" cy="13.312" rx="23.057" ry="13.312" transform="translate(17.464 10.083)" fill="url(#linear-gradient-46)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                    <ellipse id="Эллипс_1019" data-name="Эллипс 1019" cx="16.693" cy="9.638" rx="16.693" ry="9.638" transform="translate(23.829 13.757)" fill="url(#linear-gradient-47)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                </g>
+                <g id="Сгруппировать_2446" data-name="Сгруппировать 2446" transform="translate(8.509)">
+                    <path id="Контур_6033" data-name="Контур 6033" d="M1727.819,6371.895c.214.566.906,3.923-.785,4.538s-2.954-.045-4.292-1.361c-.148-.146.472-.349.234-.443-2.438-.969-4.714-3.938-4.714-4.594,0-.736-.189-1.339,1.4-1.339s4.526,2.376,4.526,2.376l2.619-.752A8.767,8.767,0,0,1,1727.819,6371.895Z" transform="translate(-1718.255 -6271.011)" fill="#051a78"/>
+                    <path id="Контур_6034" data-name="Контур 6034" d="M1806.669,6382.859a8.384,8.384,0,0,1,1.266,2.449c.187.647.611,1.125.322,1.677a4.639,4.639,0,0,1-1.934,1.54c-1.1.56-1.775-.006-2.581-.461-.18-.1.152-.609-.044-.631a11.509,11.509,0,0,1-2.309-.42c-1.4-.636-2.953-1.706-3.283-2.642a1.592,1.592,0,0,1,.971-1.863c.5-.253,5.542.8,5.542.8Z" transform="translate(-1758.438 -6277.949)" fill="#051a78"/>
+                    <path id="Контур_6035" data-name="Контур 6035" d="M1798.917,6329c-1.251,1.805-5.339,3.083-5.867,1.25-1.677-5.835-9.187-19.146-9.687-24.324-.282-2.916-1.645-12.239-1.662-15a84.667,84.667,0,0,1,.545-12.17c3.029-1.736,8.153-2.957,8.793-1.671,3.972,7.976-.86,10.2-.6,13.768.1,1.416.323,6.984.267,14.476C1794,6315.473,1798.917,6329,1798.917,6329Z" transform="translate(-1750.212 -6224.597)" fill="url(#linear-gradient-48)"/>
+                    <path id="Контур_6036" data-name="Контур 6036" d="M1750.818,6277.135c-2.073.057-6.248,10.977-9.484,19.361s-11.724,26.13-11.284,27.21,3.072,2.163,4.025,1.356,15.929-28.6,18.091-29.817c9.013-5.792,9.23-8.926,9.711-11.964.125-.792-.676-5.3-1.593-6.046C1757.677,6275.106,1752.351,6277.093,1750.818,6277.135Z" transform="translate(-1724.188 -6224.445)" fill="url(#linear-gradient-49)"/>
+                    <path id="Контур_6037" data-name="Контур 6037" d="M1791.271,6189.5s-2.743,7.826-1.66,8.952,5.6,2.144,7.256.628,5.624-6.813,3.09-9.546S1793.514,6185.661,1791.271,6189.5Z" transform="translate(-1754.071 -6179.506)" fill="#f4a2ba"/>
+                    <path id="Контур_6038" data-name="Контур 6038" d="M1809.051,6232.978c.848.289,10.664,16.325,12.617,10.319.491-1.512-2.442-11.754-8.7-17.512C1811.738,6224.654,1808.165,6232.611,1809.051,6232.978Z" transform="translate(-1763.92 -6198.969)" fill="url(#linear-gradient-50)"/>
+                    <path id="Контур_6039" data-name="Контур 6039" d="M1772.9,6236.472c.015-8.45-1.336-15.228,3.073-15.746.3-.036.6-.06.895-.088.856,6.644,3.307,13.058-.187,19.561-2.251,2.9-5.076,6.372-8.336,8.652C1769.035,6244.81,1772.9,6236.472,1772.9,6236.472Z" transform="translate(-1743.485 -6196.432)" fill="url(#linear-gradient-51)"/>
+                    <path id="Контур_6040" data-name="Контур 6040" d="M1776.758,6220.43a33.352,33.352,0,0,1,10.248.4c2.908.648,6.327.965,6.323,5.162s-7.1,19.192-8.75,27.1c-5.554,2.362-13.72-.506-16.214-2.481-.282-.309-.294-1.024-.131-1.977,3.26-2.28,6.085-5.753,8.336-8.652C1780.065,6233.487,1777.614,6227.073,1776.758,6220.43Z" transform="translate(-1743.378 -6196.224)" fill="url(#linear-gradient-52)"/>
+                    <path id="Контур_6041" data-name="Контур 6041" d="M1738.2,6171.9c-1.632.446-2.666,1.916-1.512,3.493a2.35,2.35,0,0,0,2.055,1.115c.626-.153,1.265,1.438,1.361,2.165.241,1.826,2.231.338,1.707-2C1741.28,6174.324,1739.66,6171.5,1738.2,6171.9Z" transform="translate(-1727.292 -6171.863)" fill="#f4a2ba"/>
+                    <path id="Контур_6042" data-name="Контур 6042" d="M1764.3,6200.316c-6.113-.056-9.549-2.772-12.408-5.533-1.752-1.692-4.873-13.592-6.4-14.6-.821-.539-1.826,1.4-1.91,3.753-.084,2.371,4.5,14.375,7.121,17.673a34.124,34.124,0,0,0,9.481,8.095C1764.369,6212.057,1766.26,6200.333,1764.3,6200.316Z" transform="translate(-1731.01 -6176.01)" fill="url(#linear-gradient-53)"/>
+                    <path id="Контур_6043" data-name="Контур 6043" d="M1799.516,6214.906l.4-7.5-5.349-.791-.906,7.271S1797.594,6218.187,1799.516,6214.906Z" transform="translate(-1756.24 -6189.369)" fill="#f4a2ba"/>
+                    <path id="Контур_6044" data-name="Контур 6044" d="M1802.477,6193.185s-2.391,4.529-5.689,3.556c-2.119-.632-3-4.08-3-4.08l-.29-1.941-.958-.207-1.061.784s.719-4.01-.007-4.158c-1.6-.222-.615-2.085.5-3.31,1.233-1.353,4.59-2.281,6.984-1.764s5.058,3.269,4.784,6.082A18.109,18.109,0,0,1,1802.477,6193.185Z" transform="translate(-1754.711 -6176.929)" fill="#1b2c49"/>
+                    <path id="Контур_6045" data-name="Контур 6045" d="M1799.331,6220.334s.26-2.4-.614-2.366-2.715,2.426-5.357.462c-1.214-1.221-1.562-.59-1.562-.59l-.8,1.118s1.892,1.809,1.965,2.28c.337.666,3.681,2.5,5.379.821A3.131,3.131,0,0,0,1799.331,6220.334Z" transform="translate(-1754.899 -6194.94)" fill="url(#linear-gradient-54)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

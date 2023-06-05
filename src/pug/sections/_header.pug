@@ -1,0 +1,36 @@
+header.header#top
+	.container
+		.header-content
+			//====logo ====
+			a(href="#top").logo
+				//==== если логотип в формате svg
+				object(data="./img/logo.svg" type="image/svg+xml")
+				//==== если логотип в формате png
+					img(src="./img/logo.png", alt="logo")
+
+			//==== header nav =====
+			.header-nav
+				ul
+					li
+						a(href="#!") Home
+					li
+						a(href="#!") Agency
+					li
+						a(href="#!") Join our team
+					li
+						a(href="#!") Contact
+			
+			//==== select lang =====
+			.header-lang
+				//== single item ==
+				a(href="#!").header-lang__item.active
+					img(src="./img/flag-en.png", width="30" height="20" alt="flag")
+					span En
+				
+				//== single item ==
+				a(href="#!").header-lang__item
+					img(src="./img/flag-de.png", width="30" height="20" alt="flag")
+					span De
+
+			.header-btn
+				a(href="#!").btn Grow with us

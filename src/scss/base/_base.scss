@@ -1,0 +1,117 @@
+$text: #fff;
+$bodyBg:#121428;
+$accent: #1c72fd;
+/* цвета кнопки*/ 
+$btn-text: #fff;
+$btn-bg: #1c72fd;
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  html {
+	scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+  font-family: 'WorkSans-Medium';
+  color: $text;
+  background-color: $bodyBg;
+	-webkit-font-smoothing: antialiased;
+  }
+  .lock{
+    overflow: hidden;
+    touch-action: none;
+    -ms-touch-action: none;
+    height: 100vh;
+  }
+  
+ 
+  a,
+  a:hover {
+	text-decoration: none;
+  color: inherit;
+  }
+  
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+	padding: 0;
+	margin: 0;
+  }
+
+  img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+  }
+  
+  input,
+  button, button:focus, input:focus, textarea, textarea:focus {
+	  outline: none;
+  }
+  
+  button {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+  }
+input[type="submit"]{
+	padding: 0;
+	cursor:pointer;
+}
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// textarea:-webkit-autofill,
+// textarea:-webkit-autofill:hover,
+// textarea:-webkit-autofill:focus,
+// select:-webkit-autofill,
+// select:-webkit-autofill:hover,
+// select:-webkit-autofill:focus {
+//   border-bottom: 1px solid red;
+//   -webkit-text-fill-color: #ffffff;
+//   -webkit-box-shadow: 0 0 0px 1000px #01203c inset;
+//   transition: background-color 5000s ease-in-out 0s;
+// }
+.container{
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn{
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  color: $btn-text;
+  text-decoration: none;
+  background: $btn-bg;
+  line-height: 46px;
+  padding: 0 30px;
+  border-radius: 46px;
+  height: 46px;
+  transition: .3s;
+  &:hover{
+    background-color: darken($btn-bg, 10%);
+  }
+}
