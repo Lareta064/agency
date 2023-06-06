@@ -12,6 +12,7 @@ $btn-bg: #1c72fd;
 $overlayBg: rgba(255,255,255, .5);
 
 $gradientBg: linear-gradient(180deg, #212857, #141836);
+// $serviceCardBg: linear-gradient(180deg, #222958, #151939);
 * {
 	box-sizing: border-box;
   }
@@ -95,20 +96,7 @@ section{
   padding-bottom: 50px;
   }
 }
-// input:-webkit-autofill,
-// input:-webkit-autofill:hover,
-// input:-webkit-autofill:focus,
-// textarea:-webkit-autofill,
-// textarea:-webkit-autofill:hover,
-// textarea:-webkit-autofill:focus,
-// select:-webkit-autofill,
-// select:-webkit-autofill:hover,
-// select:-webkit-autofill:focus {
-//   border-bottom: 1px solid red;
-//   -webkit-text-fill-color: #ffffff;
-//   -webkit-box-shadow: 0 0 0px 1000px #01203c inset;
-//   transition: background-color 5000s ease-in-out 0s;
-// }
+
 .container,.container-xl{
   width: 1110px;
   padding-left: 15px;
@@ -197,7 +185,11 @@ section{
     font-size: 22px;
   }
 }
-.h2{
+.title-spacing {
+  margin-bottom: 30px;
+}
+.h2, .title-spacing {
+ 
   font-size: 42px;
   font-family: 'WorkSans-SemiBold';
   margin-bottom: 1em;
@@ -284,7 +276,7 @@ section{
   font-family: 'WorkSans-Light';
 }
 .text-upper{text-transform: uppercase;}
-.sub-line{
+.h2{
   position: relative;
   padding-top: 18px;
   &:before{
@@ -297,6 +289,4 @@ section{
     left: 0;
   }
 }
-.h2.title-spacing{
-  margin-bottom: 30px;
-}
+
