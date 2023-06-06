@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		infinite: true,
 		speed: 600,
 		fade: true,
+		dots: true
 		
 	});
 });
