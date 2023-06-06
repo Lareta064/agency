@@ -75,25 +75,14 @@
 		}
 	}
 	.slick-dots{
-		display: flex;
+		justify-content: flex-start;
 		bottom:170px;
 		@media (max-width: 767px) {
 		
 		bottom: -45px;
 		}
-		li{
-			display: flex;
-			align-items: center;
-		}
-		li button{
-			height: 3px;
-			width: 20px;
-			padding: 0;
-			background-color: $text;
-		}
-		li.slick-active button {
-			background-color: $accent;
-		}
+		
+		
 	}
 	@media (max-width: 1919px) {
 		height: 100vh;
@@ -111,8 +100,29 @@
 		
 	}
 }
+.slick-dots {
+	display: flex;
+	bottom: -30px;
+	justify-content: center;
+
+	li {
+		display: flex;
+		align-items: center;
+	}
+
+	li button {
+		height: 3px;
+		width: 20px;
+		padding: 0;
+		background-color: $text;
+	}
+
+	li.slick-active button {
+		background-color: $accent;
+	}
+}
 .slick-dots li button:before{display: none;}
-.slick-arrow{
+ .slick-arrow{
 	position: absolute;
 	width: 40px;
 	height: 40px;

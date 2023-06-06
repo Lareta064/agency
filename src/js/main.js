@@ -40,4 +40,30 @@ document.addEventListener('DOMContentLoaded', function () {
 		dots: true
 		
 	});
+	$('#partners-slider').slick({
+		infinite: true,
+		speed: 600,
+		slidesToShow: 3,
+		responsive: [
+			{
+				breakpoint: 1199,
+				settings: {
+					slidesToShow: 2.1,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: true
+				}
+			}
+		]
+	});
+
+
 });
