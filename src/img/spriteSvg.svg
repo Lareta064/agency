@@ -59,4 +59,74 @@
 		
 		</g>
 	</symbol>
+
+	<symbol viewBox="0 0 47.346 58.632" id="svg-guarant1">
+		<g>
+				<g id="Сгруппировать_6722" data-name="Сгруппировать 6722"
+					transform="translate(1.5 2.114)">
+					<rect id="Прямоугольник_162" data-name="Прямоугольник 162" width="6.44"
+						height="18.462" transform="translate(0 36.557)" fill="none" 
+						stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></rect>
+					<rect id="Прямоугольник_163" data-name="Прямоугольник 163" width="6.44"
+						height="23.468" transform="translate(12.536 31.551)" fill="none"
+						 stroke-linecap="round" stroke-linejoin="round"
+						stroke-width="3"></rect>
+					<rect id="Прямоугольник_164" data-name="Прямоугольник 164" width="6.44"
+						height="28.796" transform="translate(25.071 26.222)" fill="none"
+						 stroke-linecap="round" stroke-linejoin="round"
+						stroke-width="3"></rect>
+					<rect id="Прямоугольник_165" data-name="Прямоугольник 165" width="6.44"
+						height="36.924" transform="translate(37.607 18.094)" fill="none"
+						 stroke-linecap="round" stroke-linejoin="round"
+						stroke-width="3"></rect>
+					<path id="Контур_2254" data-name="Контур 2254"
+						d="M-674.805,185.2c-10.367,12.314-20.2,23.33-43.733,23.33"
+						transform="translate(718.538 -185.2)" fill="none" 
+						stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+					<path id="Контур_2255" data-name="Контур 2255" d="M-674.961,185.2h7.538v7.5"
+						transform="translate(711.156 -185.2)" fill="none" 
+						stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+				</g>
+		</g>
+	</symbol>
+	<symbol viewBox="0 0 72.252 67.346" id="svg-guarant2">
+		<g>
+
+			<g id="Сгруппировать_6723" data-name="Сгруппировать 6723" transform="translate(-1.489 21.776) rotate(-25)">
+				<g id="Сгруппировать_1355" data-name="Сгруппировать 1355" transform="translate(3.232 0)">
+					<path id="Контур_2280" data-name="Контур 2280" d="M.148,0C.1,0,.049,0,0,0L3.034,18.8,17.759,6.819A26.12,26.12,0,0,0,.148,0Z" transform="translate(25.818)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+					<path id="Контур_2281" data-name="Контур 2281" d="M0,21.006H21.2L17.807,0A26.436,26.436,0,0,0,0,21.006Z" transform="translate(0 1.308)" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+					<path id="Контур_2282" data-name="Контур 2282" d="M0,9.163H14.509A26.254,26.254,0,0,0,11.264,0Z" transform="translate(37.424 13.151)" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+					<path id="Контур_2283" data-name="Контур 2283" d="M19.127,19.4c.051,0,.1,0,.15,0L16.144,0,0,11.084A26.151,26.151,0,0,0,19.127,19.4Z" transform="translate(6.839 33.373)" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+					<path id="Контур_2284" data-name="Контур 2284" d="M21.2,0H0L3.391,21.006A26.435,26.435,0,0,0,21.2,0Z" transform="translate(30.735 30.464)" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+				</g>
+				<g id="Сгруппировать_1356" data-name="Сгруппировать 1356" transform="translate(0 28.627)">
+					<path id="Контур_2285" data-name="Контур 2285" d="M3.057,0,0,5.814l5.782,3.04" transform="translate(0 0.638)" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+					<line id="Линия_251" data-name="Линия 251" y1="5.427" x2="21.148" transform="translate(2.867)" fill="none"  stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></line>
+				</g>
+			</g>
+              
+		</g>
+	</symbol>
+	<symbol viewBox="0 0 53.433 66.58" id="svg-guarant3">
+		<g id="Сгруппировать_6865" data-name="Сгруппировать 6865"
+			transform="translate(1.5 2.114)">
+			<path id="Контур_2254" data-name="Контур 2254"
+				d="M-674.805,185.2c-10.367,12.314-20.2,23.33-43.733,23.33"
+				transform="translate(718.538 -185.2)" fill="none" 
+				stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+			<path id="Контур_2255" data-name="Контур 2255" d="M-674.961,185.2h7.538v7.5"
+				transform="translate(711.156 -185.2)" fill="none" 
+				stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+			<text id="_" data-name="€ " transform="translate(6.933 53.467)" 
+				font-size="45" font-family="WorkSans-Bold, Work Sans" font-weight="700">
+				<tspan x="0" y="0">€</tspan>
+			</text>
+		</g>
+	</symbol>
+	
+	<symbol>
+		<g>
+		</g>
+	</symbol>
 </svg>
