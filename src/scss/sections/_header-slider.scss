@@ -1,6 +1,7 @@
 .header-banner{
-	height: 100vh;
-	padding-top: 80px;
+	
+	height: 1080px;
+	padding-top: 180px;
 	display: flex;
 	.container{position: relative;
 	}
@@ -8,7 +9,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		transform: translateY(130px);
+		transform: translateY(80px);
 	}
 	&-slider{
 		position: relative;
@@ -30,6 +31,7 @@
 			opacity: .8;
 			margin-top: 1em;
 			max-width: 280px;
+			font-family: 'WorkSans-Light';
 		}
 	}
 	&__img{
