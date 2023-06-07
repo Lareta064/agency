@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 		
 	});
-
+	/* =======header-slider ========= */
 	$('#header-slider').slick({
 		infinite: true,
 		speed: 600,
@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		dots: true
 		
 	});
+	/* ======= partners-slider ========= */
 	$('#partners-slider').slick({
 		infinite: true,
 		speed: 600,
@@ -64,6 +65,56 @@ document.addEventListener('DOMContentLoaded', function () {
 			}
 		]
 	});
-
-
+	/* ======= partners-traffic ========= */
+	$('#partners-traffic').slick({
+		infinite: true,
+		speed: 600,
+		slidesToShow: 6,
+		responsive: [
+			{
+				breakpoint: 1439,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 1,
+					infinite: true,
+					
+				}
+			},
+			{
+				breakpoint: 1199,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					infinite: true,
+					
+				}
+			},
+			
+			{
+				breakpoint: 1023,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					
+				}
+			},
+			{
+				breakpoint: 574,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					
+				}
+			}
+		]
+	});
+	
 });
