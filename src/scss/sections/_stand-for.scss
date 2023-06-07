@@ -1,0 +1,42 @@
+.stand-for{
+	&-cards{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap:40px;
+		@media (max-width: 1199px) {
+			gap: 30px;
+		}
+		@media (max-width: 991px) {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+	&__icon {
+		display: flex;
+		justify-content: center;
+	}
+	&-item{
+		.h4{
+			text-align: center;
+			font-size: 21px;
+			margin-bottom: 1em;
+			margin-top: 1em;
+			text-transform: uppercase;
+			font-family: 'WorkSans-SemiBold';
+		}
+		p{
+			font-family: 'WorkSans-Light';
+			font-size: 20px;
+			line-height: 1.6;
+			@media (max-width: 767px) {
+			font-size: 18px;
+			}
+		}
+		
+		img{
+			height: 65px;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
