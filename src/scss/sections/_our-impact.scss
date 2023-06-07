@@ -1,0 +1,100 @@
+.quote{
+	
+	background: url(../img/bg-quotes.svg) no-repeat 50%/contain;
+	margin-bottom: 25px;
+	&__text, &__text p{
+		font-size: 52px;
+		line-height: 1.45;
+		margin: 10px 0;
+		font-family:'WorkSans-SemiBold';
+		font-style: italic;
+		color: $accent;
+		text-align: center;
+		@media (max-width: 991px) {
+		font-size: 33px;
+		}
+	}
+	&__author{
+		font-size: 36px;
+		line-height: 1.15;
+		margin: 10px 0;
+		font-family: 'WorkSans-Light';
+		display: inline-block;
+		width: 100%;
+		text-align: right;
+			@media (max-width: 991px) {
+					font-size: 25px;
+				}
+		@media (max-width: 767px) {
+				font-size: 15px;
+			}
+		
+	}
+}
+.svg-payment, .svg-hands{
+	fill: $accent2;
+	width: 55px;
+	height: 55px;
+
+}
+.svg-hands{
+  width: 60px;
+  height: 56px;
+}
+.out-impact{
+	&__content{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		
+		margin-top: 50px;
+		@media (max-width: 767px) {
+			grid-template-columns: repeat(1, 1fr);
+			row-gap: 60px;
+		}
+	}
+	&__text{
+		.text-32{
+			text-align: right; margin-bottom: 20px;
+			@media (max-width: 991px) {
+				font-size: 22px;	
+				text-align: left;
+			}
+		}
+		.text-20 p{line-height: 1.6;}
+	}
+&-results{
+	display: grid;
+	
+	grid-template-columns: repeat(2, minmax(100px, 180px));
+	column-gap:55px;
+	@media (max-width: 991px) {
+	column-gap: 10px;
+	}
+	@media (max-width: 767px) {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 30px;
+		svg{
+			height: 40px;
+		}
+	}
+	.text-52{
+		font-size: 53px;
+		line-height: 1;
+		font-family: 'WorkSans-SemiBold';
+		margin-top: 10px;
+		@media (max-width: 991px) {
+			font-size: 36px;
+		}
+	}
+	.text-21{
+		font-size: 21px;
+		line-height: 1.2;
+		font-family: 'WorkSans-SemiBold';
+		margin-top: 15px;
+		@media (max-width: 991px) {
+				font-size: 13px;
+			}
+	}
+
+}
+}
